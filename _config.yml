@@ -8,11 +8,25 @@ url: "https://defna.org" # the base hostname & protocol for your site, e.g. http
 twitter_username: defnado
 github_username:  defna
 
-# Build settings
+enforce_ssl: "2019.djangocon.us"
+relative_permalinks: false
+permalink: news/:title/  # permalink: date
+timezone: America/Chicago
+
+include:
+  - _pages
+
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 exclude:
   - Gemfile

@@ -1,38 +1,27 @@
+# Site settings
 title: Django Events Foundation North America
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/defna.org/" # the subpath of your site, e.g. /blog
-# url: "https://defna.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: defnado
-github_username:  defna
+email: hello@defna.org
+description: > # Writer Theme is a responsive template
+ Django Events Foundation North America (DEFNA)
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+enable_retina: false
+permalink: :title
+nav_list:
+  Home : ['Home', '/', 'fa-home']
+  About : ['About', '/about', 'fa-user']
+  Events : ['Events', '/events', 'fa-calendar']
+  Grants : ['Donate', '/donate', 'fa-group']
+  Donate : ['Grants', '/grants', 'fa-heart']
+  Contact : ['Contact', '/contact', 'fa-comment']
+single_footer: '<p>Django Events Foundation North America (DEFNA) © 2015 - 2019</p>'
+footer_links:
+    About: ['Django Events Foundation North America (DEFNA) © 2015 - 2019', '/']
 
-# enforce_ssl: "defna.org"
-relative_permalinks: false
-permalink: news/:title/  # permalink: date
-timezone: America/Chicago
+collections:  # process the _data folder
+  boardmembers:
+  pastmembers:
+  events:
 
-include:
-  - _pages
-
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# Build settings
+# markdown: kramdown

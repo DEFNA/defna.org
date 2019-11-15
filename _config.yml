@@ -3,7 +3,7 @@ title: Django Events Foundation North America
 email: hello@defna.org
 description: > # Writer Theme is a responsive template
  Django Events Foundation North America (DEFNA)
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://defna.github.io/defna.org/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title

@@ -11,7 +11,7 @@ form_heading: Events
 {% for event in sorted %}
 <div class="row">
 <div class="col-md-4">
-<img src="{{event.logo_url}}" alt="{{event.name}}">
+<img src="{{ site.baseurl }}{{event.logo_url}}" alt="{{event.name}}">
 </div>
 <div class="col-md-8">
 <h3>{{event.name}}</h3>

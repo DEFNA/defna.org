@@ -21,7 +21,7 @@ Django Events Foundation North America (DEFNA) is a non-profit based in Californ
         <p>{{ boardmember.description }}</p>
     </div>
 	<div class="col-md-6">
-        <img src="{{ boardmember.photo_url }}" alt="{{ boardmember.name }}">
+        <img src="{{ site.baseurl }}{{ boardmember.photo_url }}" alt="{{ boardmember.name }}">
     </div>
 </div>
 {% endfor %}

@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2018-01-23
 show_related_posts: false
+permalink: /announcements/2018/1/23/join-defna-board-member-recruitment/
 ---
 
 

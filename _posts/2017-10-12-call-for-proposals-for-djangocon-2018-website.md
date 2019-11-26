@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-10-12
 show_related_posts: false
+permalink: /announcements/2017/10/10/call-for-proposals-for-djangocon-2018-website/
 ---
 
 **Updated:** October 31st, 2017 to extend our CFP deadline.

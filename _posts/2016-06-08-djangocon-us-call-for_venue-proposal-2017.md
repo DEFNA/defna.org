@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2016-06-08
 show_related_posts: false
+permalink: /announcements/2016/6/8/djangocon-us-call-for-venue-proposal-2017/
 ---
 
 We’re almost ready for DjangoCon US 2016, so It’s time to think about 2017! Where will we be next year? We need your help in making that decision!

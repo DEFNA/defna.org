@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2016-07-20
 show_related_posts: false
+permalink: /announcements/2016/7/20/defna-phase-ii/
 ---
 
 DEFNA is excited to announce further resources in its work to support the education and outreach of Django. We have established an annual fund to provide grants for local Django events in North America. The purpose of the grants is to allow organizers to increase awareness of their events to attract increased participation, and to be able to obtain the resources needed to put on a successful event. Whether you are doing a one day coding workshop, a half day introductory course, or a Django meet up, let us know what you are doing, and how we can help your event.

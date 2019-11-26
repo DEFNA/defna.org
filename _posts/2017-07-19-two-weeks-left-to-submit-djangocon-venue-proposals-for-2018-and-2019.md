@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-07-19
 show_related_posts: false
+permalink: /announcements/2017/6/27/one-month-left-to-submit-djangocon-venue-proposals-for-2018-and-2019/
 ---
 
 We wrote to you in May that we are accepting proposals for DjangoCon venues for 2018 and 2019 and that we need your help in making that decision! We are accepting proposals through the end of the month. The deadline is July 31, 2017. 

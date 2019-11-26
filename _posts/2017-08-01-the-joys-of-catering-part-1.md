@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-08-01
 show_related_posts: false
+permalink: /announcements/2017/7/25/the-joys-of-catering-part-1-tickets-sold-does-not-equal-catering-count/
 ---
 
 The first challenge with conference catering is figuring out how many people you are actually going to feed. While ticket sales are part of that equation, there are actually a number of moving parts that will give you a final number that is unlikely to match the number of tickets sold.

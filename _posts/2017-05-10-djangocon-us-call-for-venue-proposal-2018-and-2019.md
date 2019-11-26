@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-05-10
 show_related_posts: false
+permalink: /announcements/2017/5/10/djangocon-us-call-for-venue-proposal-2018-and-2019/
 ---
 
 We’re almost ready for DjangoCon US 2017, so it’s time to think about 2018 and possibly 2019! Where will we be next year? Where will be for the next two years? We need your help in making that decision!

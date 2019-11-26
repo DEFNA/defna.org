@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-04-04
 show_related_posts: false
+permalink: /announcements/2017/04/03/join-us/
 ---
 
 Django Events Foundation North America (DEFNA) is looking for board members! If you're looking for a way to participate in the Django community, this may be what you're looking for!

@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2016-12-01
 show_related_posts: false
+permalink: /announcements/2016/11/30/djangocon-us-2017-in-spokane/
 ---
 
 We are pleased to announce that the DjangoCon US 2017 conference will take place in Spokane, Washington from August 13-18, 2017!

@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-07-20
 show_related_posts: false
+permalink: /announcements/2017/7/19/welcome-new-board-members/
 ---
 
 The DEFNA board is excited to announce our expansion and the addition of our four new board members. We are excited to see what our new members accomplish. Here is some information about each of them. Please help us in welcoming them!

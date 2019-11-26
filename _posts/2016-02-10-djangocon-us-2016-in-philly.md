@@ -11,6 +11,7 @@ read_time : ""
 feature_image: 2016-02-10
 show_related_posts: false
 square_related: ""
+permalink: /announcements/2016/2/9/djangocon-us-2016-in-philly/
 ---
 
 We are pleased to announce that the DjangoCon US 2016 conference will take place in Philadelphia, Pennsylvania from July 17-22, 2016 at The Wharton School at the University of Pennsylvania:

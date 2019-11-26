@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2018-09-10
 show_related_posts: false
+permalink: /announcements/2018/9/6/semester-grants-report/
 ---
 
 At DEFNA we know that organizing great events is hard work, and we’d like to give you a little push by encouraging all event organizers in North America, no matter the size, to apply for our grants. The only thing you need to do is fill out [this form](/grants) and the Board will review and answer as soon as possible.

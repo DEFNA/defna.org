@@ -6,6 +6,7 @@ categories: ""
 author_name : DEFNA
 author_url : /about
 author_avatar: defna
+permalink: /announcements/2018/9/10/congratulations-jeff/
 show_avatar : true
 read_time : ""
 feature_image: 2018-09-24

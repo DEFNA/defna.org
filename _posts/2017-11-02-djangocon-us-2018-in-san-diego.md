@@ -10,6 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2017-11-02
 show_related_posts: false
+permalink: /announcements/2017/11/2/djangocon-us-2018-in-san-diego/
 ---
 
 We are pleased to announce that the DjangoCon US 2018 conference will take place in San Diego, California from October 14-19, 2018!

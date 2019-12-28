@@ -13,6 +13,6 @@ feature_image: feature-defna4
 	<li>PayPal, for worldwide credit/debit cards by visiting <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GX3E7TFRRWTA2" target="_blank">here</a>.</li>
 </ul>
 
-<p>If you use Amazon.com we are part of the Amazon Smile program, click to sign up. 0.5% of your eligable purchases will be donated to DEFNA, at no cost to you.</p>
+<p>If you use Amazon.com we are part of the Amazon Smile program, <a href="https://smile.amazon.com/ch/47-3151229" target="_blank">click</a> to sign up. 0.5% of your eligable purchases will be donated to DEFNA, at no cost to you.</p>
 
 <p>Thank you in advance for your donation!</p>

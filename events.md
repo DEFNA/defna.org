@@ -18,7 +18,7 @@ form_heading: Events
 <ul class="no-bullet-list">
 <li>{{event.dates}}</li>
 <li>{{event.place}}</li>
-<li>{{event.description}}</li>
+<li>{{event.content}}</li>
 </ul>
 <ul>
 <li>Tutorials: {{event.tutorials}}</li>

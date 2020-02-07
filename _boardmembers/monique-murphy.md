@@ -1,5 +1,6 @@
 ---
 layout: page
+index: 3
 name: "Monique Murphy"
 role: "DEFNA Treasurer"
 photo_url: "/img/board/monique.png"

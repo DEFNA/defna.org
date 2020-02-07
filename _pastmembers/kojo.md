@@ -1,5 +1,6 @@
 ---
 layout: page
+index: 2
 name: "Kojo Idrissa"
 photo_url: "/img/board/kojo.png"
 twitter: "transitionswpz"

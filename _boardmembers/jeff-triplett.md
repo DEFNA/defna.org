@@ -1,5 +1,6 @@
 ---
 layout: page
+index: 1
 name: "Jeff Triplett"
 role: "DEFNA President and Co-Founder"
 photo_url: "/img/board/jeff.png"

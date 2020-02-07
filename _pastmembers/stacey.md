@@ -1,5 +1,6 @@
 ---
 layout: page
+index: 1
 name: "Stacey Haysler"
 role: "DEFNA Co-Founder"
 photo_url: "/img/board/stacey.png"

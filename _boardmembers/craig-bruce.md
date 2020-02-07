@@ -1,5 +1,6 @@
 ---
 layout: page
+index: 6
 name: "Craig Bruce"
 role: "DEFNA Co-Founder"
 photo_url: "/img/board/craig.png"

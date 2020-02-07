@@ -1,5 +1,6 @@
 ---
 layout: page
+index: 3
 name: "Heather Luna"
 photo_url: "/img/board/heather.png"
 ---

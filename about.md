@@ -9,7 +9,8 @@ feature_image: feature-defna2
 Django Events Foundation North America (DEFNA) is a non-profit based in California USA. It was formed in 2015 at the request of the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/) to run [DjangoCon US](https://djangocon.us). The DSF have licensed DEFNA to run DjangoCon US for 2015-2022. Beyond DjangoCon US we also plan to be involved with other events in North America that cover the education and outreach of Django.
 
 <h2>Meet the DEFNA Board</h2>
-{% for boardmember in site.boardmembers %}
+{% assign boardmembers = site.boardmembers | sort:"index" %}
+{% for boardmember in boardmembers %}
 {% assign mod = forloop.index | modulo: 2 %}
 <div class="row board-content">
 {% if mod == 0 %}
@@ -30,7 +31,8 @@ Django Events Foundation North America (DEFNA) is a non-profit based in Californ
 <hr>
 <h2>Past Board Members</h2>
 
-{% for pastmember in site.pastmembers %}
+{% assign pastmembers = site.pastmembers | sort:"index" %}
+{% for pastmember in pastmembers %}
 {% assign mod = forloop.index | modulo: 2 %}
 <div class="row board-content">
 {% if mod == 0 %}

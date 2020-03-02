@@ -6,10 +6,11 @@ include_twocols: true
 feature_image: feature-defna2
 ---
 
-Django Events Foundation North America (DEFNA) is a non-profit based in California USA. It was formed in 2015 at the request of the Django Software Foundation (DSF) to run DjangoCon US. The DSF have licensed DEFNA to run DjangoCon US for 2015-2020. Beyond DjangoCon US we also plan to be involved with other events in North America that cover the education and outreach of Django.
+Django Events Foundation North America (DEFNA) is a non-profit based in California USA. It was formed in 2015 at the request of the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/) to run [DjangoCon US](https://djangocon.us). The DSF have licensed DEFNA to run DjangoCon US for 2015-2022. Beyond DjangoCon US we also plan to be involved with other events in North America that cover the education and outreach of Django.
 
-<h2>Meet the DEFNA board</h2>
-{% for boardmember in site.boardmembers %}
+<h2>Meet the DEFNA Board</h2>
+{% assign boardmembers = site.boardmembers | sort:"index" %}
+{% for boardmember in boardmembers %}
 {% assign mod = forloop.index | modulo: 2 %}
 <div class="row board-content">
 {% if mod == 0 %}
@@ -18,7 +19,8 @@ Django Events Foundation North America (DEFNA) is a non-profit based in Californ
 	<div class="col-md-6">
 {% endif %}
         <h3>{{ boardmember.name }}</h3>
-        <p>{{ boardmember.description }}</p>
+        <h4>{{ boardmember.role }}</h4>
+        {{ boardmember.content }}
     </div>
 	<div class="col-md-6">
         <img src="{{ site.baseurl }}{{ boardmember.photo_url }}" alt="{{ boardmember.name }}">
@@ -27,9 +29,10 @@ Django Events Foundation North America (DEFNA) is a non-profit based in Californ
 {% endfor %}
 
 <hr>
-<h2>Past board members</h2>
+<h2>Past Board Members</h2>
 
-{% for pastmember in site.pastmembers %}
+{% assign pastmembers = site.pastmembers | sort:"index" %}
+{% for pastmember in pastmembers %}
 {% assign mod = forloop.index | modulo: 2 %}
 <div class="row board-content">
 {% if mod == 0 %}
@@ -38,7 +41,8 @@ Django Events Foundation North America (DEFNA) is a non-profit based in Californ
 	<div class="col-md-6 right">
 {% endif %}
         <h3>{{ pastmember.name }}</h3>
-        <p>{{ pastmember.description }}</p>
+        <h4>{{ pastmember.role }}</h4>
+        {{ pastmember.content }}
     </div>
 	<div class="col-md-6">
         <img src="{{ pastmember.photo_url }}" alt="{{ pastmember.name }}">

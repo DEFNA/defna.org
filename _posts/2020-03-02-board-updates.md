@@ -3,7 +3,7 @@ layout: post
 title: "Board Updates"
 date: 2020-03-02 16:45:00
 categories: ""
-author_name: DEFNA
+author_name: Jeff Triplett
 author_url: /about
 author_avatar: defna
 permalink: /announcements/2020/03/02/board-updates/

@@ -4,7 +4,7 @@ author_name: Jeff Triplett
 author_url: /about
 categories: ""
 date: 2020-04-15 14:00:00
-feature_image: 2017-07-20
+feature_image: 2017-11-02
 layout: post
 permalink: /announcements/2020/04/15/vendor-update/
 read_time: ""

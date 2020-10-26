@@ -15,7 +15,11 @@ layout: default
 <main class="container">
     <div class="row">
         <div class="col-xs-12 single-content">
-
+            {% if page.logo_image %}
+            <div class="logo_image">
+                <img src='{{ site.baseurl}}/img/{{ page.logo_image }}' alt="DEFNA logo">
+            </div>
+            {% endif %}
             <h1>{{ page.title }}</h1>
 
             {{ content }}

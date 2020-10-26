@@ -5,9 +5,12 @@ permalink: /contact/
 feature_image: feature-defna6
 form_action:
 form_heading: Contact our Team
+logo_image: DEFNA-Logotype.png
 ---
 
-<br>
+<div class="logo_image">
+    <img src='{{ site.baseurl}}/img/{{ page.logo_image }}' alt="DEFNA logo">
+</div>
 <h4>MAILING ADDRESS</h4>
 <p>3141 Stevens Creek Blvd #40102<br>
 San Jose, CA 95117, U.S.A.<br>

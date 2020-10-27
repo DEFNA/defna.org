@@ -4,6 +4,7 @@ title: Donate
 permalink: /donate/
 include_twocols: false
 feature_image: feature-defna4
+logo_image: DEFNA-Logotype.png
 ---
 
 <p>If you would like to donate to DEFNA, we accept donations which we typically put towards our diversity and financial aid programs. For a current event there will be an option to buy a diversity ticket or make a donation. Alternatively, at any time you can make a donation via</p>

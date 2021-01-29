@@ -14,7 +14,7 @@ permalink: /announcements/2021/1/29/join-defna-board-member-recruitment/
 ---
 
 
-Django Events Foundation North America (DEFNA) is looking for another board member. We have a seven member board; this year one of our board members, Craig Bruce, is stepping down. We are looking for a new board member, possibly someone interested in being our new Corporate Treasurer, who oversees the financial records and processes.
+Django Events Foundation North America (DEFNA) is looking for another board member. We have a seven member board; this year one of our board members, Craig Bruce, is stepping down. We are looking for a new board member, possibly someone interested in being our new Corporate Treasurer (this interest is not a requirement, however), who oversees the financial records and processes.
 
 We are investigating options to have the bulk of day to day financial data entry managed and shift the Treasurer role to be more oversight than data entry.
 

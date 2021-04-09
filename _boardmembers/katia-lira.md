@@ -1,6 +1,6 @@
 ---
 layout: page
-index: 2
+index: 1
 name: "Katia Lira"
 role: "DEFNA President"
 photo_url: "/img/board/katialira.png"

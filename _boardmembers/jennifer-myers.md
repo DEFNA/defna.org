@@ -3,7 +3,7 @@ layout: page
 index: 3
 name: "Jennifer Myers"
 role: "DEFNA Treasurer"
-photo_url: "/img/board/jen.png"
+photo_url: "/img/board/jen.jpg"
 github: ""
 twitter: ""
 website: ""

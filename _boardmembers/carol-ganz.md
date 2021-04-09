@@ -3,7 +3,7 @@ layout: page
 index: 9
 name: "Carol Ganz"
 role: "DEFNA Director"
-photo_url: "/img/board/carol.png"
+photo_url: "/img/board/carol.jpg"
 github: ""
 twitter: ""
 website: ""

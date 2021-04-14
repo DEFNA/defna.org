@@ -1,8 +1,8 @@
 ---
 layout: page
-index: 3
+index: 6
 name: "Monique Murphy"
-role: "DEFNA Treasurer"
+role: "DEFNA Director"
 photo_url: "/img/board/monique.png"
 github: ""
 twitter: "mvioletmurphy"

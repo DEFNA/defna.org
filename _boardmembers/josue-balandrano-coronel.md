@@ -1,6 +1,6 @@
 ---
 layout: page
-index: 7
+index: 8
 name: "Josue Balandrano Coronel"
 role: "Visas Coordinator"
 photo_url: "/img/board/josue.png"

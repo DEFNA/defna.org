@@ -1,6 +1,6 @@
 ---
 layout: page
-index: 8
+index: 7
 name: "Adam Fast"
 role: "A/V Chair"
 photo_url: "/img/board/adam.png"

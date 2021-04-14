@@ -9,4 +9,4 @@ twitter: "KatiMichel"
 website: " "
 ---
 
-Kati works for Eldarion as a Pinax Maintainer and is the DjangoCon US Website Co-chair. In her free time, she enjoys traveling, eating good food, and listening to music.
+Katherine "Kati" Michel is a web developer, open source maintainer, and technical writer. Her recent clients include The Wharton School and Eldarion. She has also been the DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling, eating good food, and listening to music. 

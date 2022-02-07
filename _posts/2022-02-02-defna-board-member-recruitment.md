@@ -33,4 +33,4 @@ If you'd like to be considered for the board, drop us a note at hello@defna.org,
 
 Please email your information to us by February 21st at 6:00 PM Pacific Time. We'll contact you if we need more details. We'll make our decision and reply to everyone by end-of-day March 4th.
 
-Read more about DEFNA's involvement with DjangoCon US in our [past board member recruitment post](https://www.defna.org/announcements/2017/04/03/join-us).
+Read more about [DEFNA's board members] (https://www.defna.org/about/).

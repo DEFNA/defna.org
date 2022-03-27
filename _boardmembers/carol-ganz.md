@@ -1,6 +1,6 @@
 ---
 layout: page
-index: 9
+index: 7
 name: "Carol Ganz"
 role: "DEFNA Director"
 photo_url: "/img/board/carol.jpg"

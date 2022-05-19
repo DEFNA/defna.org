@@ -15,7 +15,7 @@ permalink: /announcements/2022/5/16/djangocon-us-call-for-venue-proposal-2023/
 
 We’re in the middle of planning DjangoCon US 2022, so it’s time to think about 2023! Where will we be next year? We need your help in making that decision!
 
-So you want your city to host DjangoCon US! Hurrah! We’re delighted by your interest. Here’s what you need to know, and what we need to know, to consider your proposal.
+So you want your city to host DjangoCon US? Hurrah! We’re delighted by your interest. Here’s what you need to know, and what we need to know, to consider your proposal.
 
 For 2023, we are looking at moving the conference to dates in the middle of October, but we are amenable to other dates in Q3.
 

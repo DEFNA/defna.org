@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DjangoCon US: Call for Venue Proposal 2023"
-date: 2022-05-16 12:00:00
+date: 2022-05-20 12:00:00
 categories: ""
 author_name : DEFNA
 author_url : /about
@@ -10,7 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2016-06-08
 show_related_posts: false
-permalink: /announcements/2022/5/16/djangocon-us-call-for-venue-proposal-2023/
+permalink: /announcements/2022/5/20/djangocon-us-call-for-venue-proposal-2023/
 ---
 
 We’re in the middle of planning DjangoCon US 2022, so it’s time to think about 2023! Where will we be next year? We need your help in making that decision!

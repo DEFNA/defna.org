@@ -98,7 +98,9 @@ We need some information about your city, about the venue, the hotel, and travel
 	* Concessions policy (comp room nights per actualized room nights)
 	* A sample contract showing the terms of booking the block of rooms. Again, do not sign any contracts. DEFNA will handle the business side of things. We just need to see the terms the hotel proposes for the group block.
 
-5. Provide estimates on costs associated with flights, accommodation, meals, ground transportation, etc. for an overview of total cost for attendees.
+5. Provide estimates on costs associated with flights, accommodation, meals, ground transportation, etc. for an overview of the total cost for attendees.
+
+   * Suggested cost examples include typical round-trip airfare from several major hub cities, including New York, Los Angeles, San Francisco, Atlanta, Dallas, Chicago, and London.
 
 6. Information about what makes the city a good choice for DjangoCon US and an attractive destination for attendees.
 

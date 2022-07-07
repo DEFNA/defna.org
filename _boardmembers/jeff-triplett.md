@@ -2,7 +2,7 @@
 layout: page
 index: 5
 name: "Jeff Triplett"
-role: "DEFNA Co-Founder and Director"
+role: "DEFNA Co-Founder and President"
 photo_url: "/img/board/jeff.png"
 github: "jefftriplett"
 twitter: "webology"

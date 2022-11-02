@@ -8,7 +8,7 @@ author_url : /about
 author_avatar: defna
 show_avatar : true
 read_time : ""
-feature_image: 2022-02-02
+feature_image: 2022-11-05
 show_related_posts: false
 permalink: /announcements/2022/11/5/defna-board-member-recruitment/
 ---

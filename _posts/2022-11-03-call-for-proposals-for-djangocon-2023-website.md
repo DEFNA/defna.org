@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "Call for Proposals for DjangoCon 2022 Website!"
+date: 2022-11-03 09:00:00
+categories: ""
+author_name : DEFNA
+author_url : /about
+author_avatar: defna
+show_avatar : true
+read_time : ""
+feature_image: 2022-11-03
+show_related_posts: false
+permalink: /announcements/2022/11/03/call-for-proposals-for-djangocon-2023-website/
+---
+
+## Overview
+
+Prior to 2017, DjangoCon US websites were built using Django. DEFNA decided to take a different approach beginning in 2017. The website was built using the static site generator Jekyll and hosted on GitHub. There are a number of advantages to this approach:
+
+* Much of the website layout code can be reused from year to year
+* New designs can be implemented more quickly and easily
+* Website documentation is more easily maintained
+* The number of contributions and contributors has drastically increased
+
+## Technical Specifications
+
+* The 2022 DjangoCon US website currently uses the following software tools:
+	* Hosted on Github Pages (using Jekyll static site generator)
+	* Foundation responsive design framework
+	* Sass CSS extension language
+	* Gulp to compile for production
+	* npm for installation of front end dependencies
+
+Here is the link to the DjangoCon US 2022 website repo, including README documentation: [https://github.com/djangocon/2022.djangocon.us](https://github.com/djangocon/2022.djangocon.us)
+
+### Going Forward
+
+We want to build off what we started in 2017 but improve on what we have. Our main goal for 2022 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city that we select.
+
+We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
+
+We’d also like your help finishing the layout for our Why DjangoCon US page which we use to help market to employees who wish to get their companies/bosses on board with attending DjangoCon US. See here: [https://2017.djangocon.us/why-djangocon-us/](https://2017.djangocon.us/why-djangocon-us/)
+
+Finally, we'd like your help with our swag and art direction which includes our backdrops during the conference, videos, signage, along with special swag which we give out at the conference.
+
+## Landing Page, Website Design, Swag Deliverables
+
+DjangoCon US will need:
+
+* A configurable landing page with:
+	* City and date information (This should also have a “coming soon” option)
+	* A marketing teaser
+	* Link to sponsorship info
+	* Link to our code of conduct
+* Updated website design including city design, color scheme, logos, and updated style guide.
+* Ideas and art direction for our swag and signage
+
+### DEFNA Will Provide
+
+* City and date information
+* Sponsorship submission form hosted through third-party
+* Landing page copy
+* The 2022 website which shows a complete and working implementation of what we are looking for
+
+## Full Website Deliverable
+
+Delivery of the full website design
+* Responsive design that supports mobile, tablet, and desktop devices
+* Accessibility and usability features
+
+DjangoCon US organizers and open-source community members will provide additional support for integration of the design.
+
+## Tentative Schedule
+
+* Landing page launch: January 2023
+* Website design complete: January 2023
+* Initial site launch: January 2023
+* Swag completion: February 2023
+
+## CFP Timeline
+
+1. Call for proposals opens: November 03, 2022
+2. Deadline to submit proposal: November 15, 2022
+3. Decision: November 30, 2022
+
+## Submission Instructions
+
+Please provide an electronic copy of your submission to our email address [hello@defna.org](maitlo:hello@defna.org). You can also email any questions that you have to our email address.
+
+We look forward to hearing from you!

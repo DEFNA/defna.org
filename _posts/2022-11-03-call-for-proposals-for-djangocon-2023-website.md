@@ -25,12 +25,12 @@ We'd also like your help with our swag and art direction which includes our back
 
 ## Website Overview
 
-In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. There are a number of advantages to this approach:
+In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. While we are not wedded to the use of Jekyll, there are a number of advantages to this static site generator type of approach:
 
 * Much of the website layout code can be reused from year to year
 * New designs can be implemented more quickly and easily
 * Website documentation is more easily maintained
-* The number of contributions and contributors has drastically increased
+* The number of contributions and contributors has drastically increased (many contributions can be made through markdown alone)
 
 ## Website Technical Specifications
 

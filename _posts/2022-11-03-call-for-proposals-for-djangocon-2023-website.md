@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Call for Proposals for DjangoCon 2022 Website!"
+title:  "Call for Proposals for DjangoCon US 2023 Website!"
 date: 2022-11-03 09:00:00
 categories: ""
 author_name : DEFNA

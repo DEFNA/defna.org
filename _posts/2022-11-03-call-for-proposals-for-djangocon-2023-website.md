@@ -35,7 +35,7 @@ Here is the link to the DjangoCon US 2022 website repo, including README documen
 
 ### Going Forward
 
-We want to build off what we started in 2017 but improve on what we have. Our main goal for 2022 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city that we select.
+We want to build off what we started in 2017 but improve on what we have. Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city that we select.
 
 We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
 

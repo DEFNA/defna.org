@@ -17,7 +17,7 @@ permalink: /announcements/2022/11/03/call-for-proposals-for-djangocon-2023-websi
 
 We are looking for assistance with our DjangoCon US website design, and conference swag and art direction. 
 
-Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city that we select.
+Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city.
 
 We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
 

@@ -72,10 +72,10 @@ DjangoCon US organizers and open-source community members will provide additiona
 
 ## Tentative Schedule
 
-* Landing page launch: January 2023
-* Website design complete: January 2023
-* Initial site launch: January 2023
-* Swag completion: February 2023
+* Landing page launch: March 2023
+* Website design complete: March 2023
+* Initial site launch: March 2023
+* Swag completion: April 2023
 
 ## CFP Timeline
 

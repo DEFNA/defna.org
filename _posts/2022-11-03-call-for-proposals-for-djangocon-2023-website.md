@@ -39,9 +39,7 @@ We want to build off what we started in 2017 but improve on what we have. Our ma
 
 We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
 
-We’d also like your help finishing the layout for our Why DjangoCon US page which we use to help market to employees who wish to get their companies/bosses on board with attending DjangoCon US. See here: [https://2017.djangocon.us/why-djangocon-us/](https://2017.djangocon.us/why-djangocon-us/)
-
-Finally, we'd like your help with our swag and art direction which includes our backdrops during the conference, videos, signage, along with special swag which we give out at the conference.
+We'd also like your help with our swag and art direction which includes our backdrops during the conference, videos, signage, along with special swag which we give out at the conference.
 
 ## Landing Page, Website Design, Swag Deliverables
 

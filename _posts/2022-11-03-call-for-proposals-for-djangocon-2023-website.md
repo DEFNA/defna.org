@@ -13,16 +13,16 @@ show_related_posts: false
 permalink: /announcements/2022/11/03/call-for-proposals-for-djangocon-2023-website/
 ---
 
-## Overview
+## Website Overview
 
-Prior to 2017, DjangoCon US websites were built using Django. DEFNA decided to take a different approach beginning in 2017. The website was built using the static site generator Jekyll and hosted on GitHub. There are a number of advantages to this approach:
+In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. There are a number of advantages to this approach:
 
 * Much of the website layout code can be reused from year to year
 * New designs can be implemented more quickly and easily
 * Website documentation is more easily maintained
 * The number of contributions and contributors has drastically increased
 
-## Technical Specifications
+## Website Technical Specifications
 
 * The 2022 DjangoCon US website currently uses the following software tools:
 	* Hosted on Github Pages (using Jekyll static site generator)

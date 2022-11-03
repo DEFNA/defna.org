@@ -13,6 +13,16 @@ show_related_posts: false
 permalink: /announcements/2022/11/03/call-for-proposals-for-djangocon-2023-website/
 ---
 
+### Introduction
+
+We are looking for assistance with our DjangoCon US website design, and conference swag and art direction. 
+
+Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city that we select.
+
+We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
+
+We'd also like your help with our swag and art direction which includes our backdrops during the conference, videos, signage, along with special swag which we give out at the conference.
+
 ## Website Overview
 
 In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. There are a number of advantages to this approach:
@@ -32,14 +42,6 @@ In 2017, the DjangoCon US website was re-built using the static site generator J
 	* npm for installation of front end dependencies
 
 Here is the link to the DjangoCon US 2022 website repo, including README documentation: [https://github.com/djangocon/2022.djangocon.us](https://github.com/djangocon/2022.djangocon.us)
-
-### Going Forward
-
-We want to build off what we started in 2017 but improve on what we have. Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city that we select.
-
-We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
-
-We'd also like your help with our swag and art direction which includes our backdrops during the conference, videos, signage, along with special swag which we give out at the conference.
 
 ## Landing Page, Website Design, Swag Deliverables
 

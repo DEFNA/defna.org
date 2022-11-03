@@ -85,6 +85,6 @@ DjangoCon US organizers and open-source community members will provide additiona
 
 ## Submission Instructions
 
-Please provide an electronic copy of your submission to our email address [hello@defna.org](maitlo:hello@defna.org). You can also email any questions that you have to our email address.
+Please provide an electronic copy of your submission to our email address [hello@defna.org](mailto:hello@defna.org). You can also email any questions that you have to our email address.
 
 We look forward to hearing from you!

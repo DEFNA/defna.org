@@ -43,7 +43,7 @@ In 2017, the DjangoCon US website was re-built using the static site generator J
 
 Here is the link to the DjangoCon US 2022 website repo, including README documentation: [https://github.com/djangocon/2022.djangocon.us](https://github.com/djangocon/2022.djangocon.us)
 
-## Landing Page, Website Design, Swag Deliverables
+## Landing Page, Website Design, Art Direction Deliverables
 
 DjangoCon US will need:
 

@@ -14,9 +14,9 @@ nav_list:
   Grants : ['Donate', '/donate', 'fa-group']
   Donate : ['Grants', '/grants', 'fa-heart']
   Contact : ['Contact', '/contact', 'fa-comment']
-single_footer: '<p>Django Events Foundation North America (DEFNA) © 2015 - 2019</p>'
+single_footer: '<p>Django Events Foundation North America (DEFNA) © 2015 - 2022</p>'
 footer_links:
-    About: ['Django Events Foundation North America (DEFNA) © 2015 - 2019', '/']
+    About: ['Django Events Foundation North America (DEFNA) © 2015 - 2022', '/']
 
 collections:  # process the _data folder
   boardmembers:

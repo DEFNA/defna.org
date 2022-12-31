@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Call for Proposals for DjangoCon US 2023 Website!"
-date: 2022-11-03 09:00:00
+date: 2023-01-01 09:00:00
 categories: ""
 author_name : DEFNA
 author_url : /about
 author_avatar: defna
 show_avatar : true
 read_time : ""
-feature_image: 2022-11-03
+feature_image: 2023-01-01
 show_related_posts: false
-permalink: /announcements/2022/11/03/call-for-proposals-for-djangocon-2023-website/
+permalink: /announcements/2023/01/01/call-for-proposals-for-djangocon-2023-website/
 ---
 
 ### Introduction
@@ -79,9 +79,9 @@ DjangoCon US organizers and open-source community members will provide additiona
 
 ## CFP Timeline
 
-1. Call for proposals opens: November 03, 2022
-2. Deadline to submit proposal: November 30, 2022
-3. Decision: December 15, 2022
+1. Call for proposals opens: January 01, 2023
+2. Deadline to submit proposal: January 31, 2023
+3. Decision: February 11, 2023
 
 ## Submission Instructions
 

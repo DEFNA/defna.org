@@ -1,11 +1,13 @@
 *.log
-.DS_Store
 .bundle
 .cache
+.DS_Store
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
-Gemfile.lock
+.vendor
 _site
-bower_components/
-node_modules/
+bower_components
+Gemfile.lock
+node_modules
+vendor

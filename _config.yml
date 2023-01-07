@@ -1,8 +1,10 @@
+assets:
+  cachebust: hard
+
 # Site settings
 title: Django Events Foundation North America
 email: hello@defna.org
-description: > # Writer Theme is a responsive template
- Django Events Foundation North America (DEFNA)
+description: Django Events Foundation North America (DEFNA)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 enable_retina: false
@@ -27,3 +29,33 @@ exclude:
 
 # Build settings
 # markdown: kramdown
+plugins:
+- jekyll-feed
+- jekyll-gist
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+exclude:
+- "*.yaml"
+- "*.yml"
+- bin
+- CNAME
+- docker-compose.yml
+- Gemfile
+- Gemfile.lock
+- justfile
+- LICENSE
+- node_modules
+- README.md
+- requirements.in
+- vendor
+
+# this is optional but makes it more obvious which pages are content
+# vs. misc config
+include:
+  - _pages

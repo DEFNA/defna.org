@@ -54,3 +54,8 @@ exclude:
 - README.md
 - requirements.in
 - vendor
+
+# this is optional but makes it more obvious which pages are content
+# vs. misc config
+include:
+  - _pages

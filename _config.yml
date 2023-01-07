@@ -39,3 +39,18 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jemoji
+
+exclude:
+- "*.yaml"
+- "*.yml"
+- bin
+- CNAME
+- docker-compose.yml
+- Gemfile
+- Gemfile.lock
+- justfile
+- LICENSE
+- node_modules
+- README.md
+- requirements.in
+- vendor

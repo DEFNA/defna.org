@@ -1,9 +1,9 @@
 ---
+github: "jefftriplett"
 index: 5
 name: "Jeff Triplett"
-role: "DEFNA Co-Founder and President"
 photo_url: "/img/board/jeff.png"
-github: "jefftriplett"
+role: "President and DEFNA Co-Founder"
 twitter: "webology"
 website: "https://jefftriplett.com/"
 ---

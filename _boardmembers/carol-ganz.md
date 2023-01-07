@@ -1,9 +1,9 @@
 ---
+github: ""
 index: 7
 name: "Carol Ganz"
-role: "DEFNA Director"
 photo_url: "/img/board/carol.jpg"
-github: ""
+role: "DEFNA Director"
 twitter: ""
 website: ""
 ---

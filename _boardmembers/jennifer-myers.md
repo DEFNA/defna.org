@@ -1,9 +1,9 @@
 ---
+github: ""
 index: 3
 name: "Jennifer Myers"
-role: "DEFNA Treasurer"
 photo_url: "/img/board/jen.jpg"
-github: ""
+role: "DEFNA Treasurer"
 twitter: ""
 website: ""
 ---

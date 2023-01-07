@@ -1,9 +1,9 @@
 ---
+github: ""
 index: 2
 name: "Drew Winstel"
-role: "DEFNA Vice President"
 photo_url: "/img/board/drew.png"
-github: ""
+role: "DEFNA Vice President"
 twitter: ""
 website: ""
 ---

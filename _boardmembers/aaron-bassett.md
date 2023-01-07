@@ -1,9 +1,9 @@
 ---
+github: aaronbassett
 index:
 name: Aaron Bassett
-role:
 photo_url:
-github: aaronbassett
+role: "DEFNA Director"
 twitter: aaronbassett
 website:
 ---

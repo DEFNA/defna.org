@@ -1,9 +1,9 @@
 ---
+github: "adamfast"
 index: 6
 name: "Adam Fast"
-role: "A/V Chair"
 photo_url: "/img/board/adam.png"
-github: "adamfast"
+role: "A/V Chair"
 twitter: "adamcanfly"
 website: "http://www.adamfast.com/"
 ---

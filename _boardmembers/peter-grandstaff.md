@@ -1,9 +1,9 @@
 ---
+github: PeterGrand
 index:
 name: Peter Grandstaff
-role:
 photo_url:
-github: PeterGrand
+role: "DEFNA Director"
 twitter:
 website:
 ---

@@ -1,6 +1,6 @@
 ---
 github: "adamfast"
-index: 6
+index: 5
 name: "Adam Fast"
 photo_url: "/img/board/adam.png"
 role: "A/V Chair"

@@ -1,6 +1,6 @@
 ---
 github: PeterGrand
-index:
+index: 9
 name: Peter Grandstaff
 photo_url:
 role: "DEFNA Director"

@@ -1,6 +1,6 @@
 ---
 github: aaronbassett
-index:
+index: 7
 name: Aaron Bassett
 photo_url:
 role: "DEFNA Director"

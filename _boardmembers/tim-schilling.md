@@ -1,6 +1,6 @@
 ---
 github: tim-schilling
-index:
+index: 8
 name: Tim Schilling
 photo_url:
 role: "DEFNA Director"

@@ -2,7 +2,7 @@
 github: tim-schilling
 index: 8
 name: Tim Schilling
-photo_url:
+photo_url: "/img/board/tim.jpeg"
 role: "DEFNA Director"
 twitter: CodenameTim
 website:

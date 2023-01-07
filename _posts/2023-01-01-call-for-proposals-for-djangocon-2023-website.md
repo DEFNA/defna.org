@@ -34,7 +34,7 @@ In 2017, the DjangoCon US website was re-built using the static site generator J
 
 ## Website Technical Specifications
 
-* The 2022 DjangoCon US website currently uses the following software tools:
+The 2022 DjangoCon US website currently uses the following software tools:
 	* Hosted on Github Pages (using Jekyll static site generator)
 	* Foundation responsive design framework
 	* Sass CSS extension language
@@ -64,7 +64,7 @@ DjangoCon US will need:
 
 ## Full Website Deliverable
 
-Delivery of the full website design
+* Delivery of the full website design
 * Responsive design that supports mobile, tablet, and desktop devices
 * Accessibility and usability features
 

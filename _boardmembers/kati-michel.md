@@ -1,5 +1,4 @@
 ---
-layout: page
 index: 4
 name: "Katherine 'Kati' Michel"
 role: "DEFNA Secretary"

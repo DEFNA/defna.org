@@ -1,5 +1,4 @@
 ---
-layout: page
 index: 5
 name: "Jeff Triplett"
 role: "DEFNA Co-Founder and President"

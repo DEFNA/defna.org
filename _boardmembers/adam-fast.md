@@ -1,5 +1,4 @@
 ---
-layout: page
 index: 6
 name: "Adam Fast"
 role: "A/V Chair"

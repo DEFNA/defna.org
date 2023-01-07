@@ -1,5 +1,4 @@
 ---
-layout: page
 index: 3
 name: "Jennifer Myers"
 role: "DEFNA Treasurer"

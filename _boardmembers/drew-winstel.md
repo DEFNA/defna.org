@@ -1,5 +1,4 @@
 ---
-layout: page
 index: 2
 name: "Drew Winstel"
 role: "DEFNA Vice President"

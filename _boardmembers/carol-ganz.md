@@ -1,5 +1,4 @@
 ---
-layout: page
 index: 7
 name: "Carol Ganz"
 role: "DEFNA Director"

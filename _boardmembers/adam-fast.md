@@ -1,10 +1,9 @@
 ---
-layout: page
-index: 6
-name: "Adam Fast"
-role: "A/V Chair"
-photo_url: "/img/board/adam.png"
 github: "adamfast"
+index: 5
+name: "Adam Fast"
+photo_url: "/img/board/adam.png"
+role: "A/V Chair"
 twitter: "adamcanfly"
 website: "http://www.adamfast.com/"
 ---

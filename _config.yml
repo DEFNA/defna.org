@@ -21,9 +21,12 @@ footer_links:
     About: ['Django Events Foundation North America (DEFNA) © 2015 - 2022', '/']
 
 collections:  # process the _data folder
+  components:
+    output: false
   boardmembers:
   pastmembers:
   events:
+    output: true
 exclude:
   - modd.conf
 

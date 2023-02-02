@@ -15,9 +15,11 @@ permalink: /announcements/2023/01/01/call-for-proposals-for-djangocon-2023-websi
 
 ### Introduction
 
+**UPDATE**: The deadline is extended to February 10.
+
 We are looking for assistance with our DjangoCon US website design, and conference swag and art direction. 
 
-Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city.
+Our main goal for 2023 [(repo here)](https://github.com/djangocon/2023.djangocon.us) is to update our color scheme, logos, and [style guide](https://2022.djangocon.us/styleguide/) to fit the theme of the new city, Durham, NC.
 
 We have all of our 2022 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
 
@@ -80,8 +82,8 @@ DjangoCon US organizers and open-source community members will provide additiona
 ## CFP Timeline
 
 1. Call for proposals opens: January 7, 2023
-2. Deadline to submit proposal: January 31, 2023
-3. Decision: February 11, 2023
+2. Deadline to submit proposal: February 10, 2023
+3. Decision: February 16, 2023
 
 ## Submission Instructions
 

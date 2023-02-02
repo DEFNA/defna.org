@@ -80,8 +80,8 @@ DjangoCon US organizers and open-source community members will provide additiona
 ## CFP Timeline
 
 1. Call for proposals opens: January 7, 2023
-2. Deadline to submit proposal: January 31, 2023
-3. Decision: February 11, 2023
+2. Deadline to submit proposal: February 10, 2023
+3. Decision: February 17, 2023
 
 ## Submission Instructions
 

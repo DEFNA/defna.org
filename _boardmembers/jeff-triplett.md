@@ -5,7 +5,7 @@ name: "Jeff Triplett"
 photo_url: "/img/board/jeff.png"
 role: "President and DEFNA Co-Founder"
 twitter: "webology"
-website: "https://jefftriplett.com/"
+website: "https://webology.dev"
 ---
 
-Jeff is a Django developer for Revolution Systems (Revsys). He co-organized the Django Birthday conference. In his spare time, he practices photography and is getting back into running.
+Jeff is a Django developer for Revolution Systems ([REVSYS](https://revsys.com)) and is a Director and Vice Chair for the [Python Software Foundation](https://www.python.org/psf/board/).

@@ -24,7 +24,7 @@ Logan served for one year on the board, was our DjangoCon US 2022 Conference Cha
 
 ### Tim Schilling
 
-Tim Schilling has been a member of the Django community since 2013. He is currently a software developer for AspirEDU. He enjoys spending time helping other Djangonauts on the forum or in the Discord server. He has also been mentoring developers with the Underdog Devs program. Outside of software, he enjoys cooking, baking, brewing beer, gardening and reading.
+Tim has been a member of the Django community since 2013. He is currently a software developer for AspirEDU. He enjoys spending time helping other Djangonauts on the forum or in the Discord server. He has also been mentoring developers with the Underdog Devs program. Outside of software, he enjoys cooking, baking, brewing beer, gardening and reading.
 
 ### Peter Grandstaff
 

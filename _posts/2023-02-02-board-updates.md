@@ -16,7 +16,7 @@ title: "Board Member Update for 2023"
 
 We would like to take a moment to extend our gratitude to our outgoing directors, Josue Balandrano Coronel and Logan Kilpatrick for their invaluable contributions to our board.
 
-Josue joined DEFNA in 2018, was a DjangoCon US volunteer, and was no stranger to speaking at DjangoCon US. Josue has always been a voice for pushing DEFNA forward and has hosted our YouTube interviews for many years.
+Josue joined DEFNA in 2018, was a DjangoCon US volunteer, and was no stranger to speaking at DjangoCon US. Josue has always been a voice for pushing DEFNA forward and has hosted [our YouTube interviews](https://www.youtube.com/watch?v=KMO4RR5ISRE&list=PL2NFhrDSOxgUwF244g835zO3ciMkKILyJ) for many years.
 
 Logan served for one year on the board and was our DjangoCon US 2022 Conference Chair and was a valuable member of our organizing team.
 

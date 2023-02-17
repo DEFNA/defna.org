@@ -18,7 +18,7 @@ We would like to take a moment to extend our gratitude to our outgoing directors
 
 Josue joined DEFNA in 2018, was a DjangoCon US volunteer, and was no stranger to speaking at DjangoCon US. Josue has always been a voice for pushing DEFNA forward and has hosted [our YouTube interviews](https://www.youtube.com/watch?v=KMO4RR5ISRE&list=PL2NFhrDSOxgUwF244g835zO3ciMkKILyJ) for many years.
 
-Logan served for one year on the board and was our DjangoCon US 2022 Conference Chair and was a valuable member of our organizing team.
+Logan served for one year on the board, was our DjangoCon US 2022 Conference Chair, and was a valuable member of our organizing team.
 
 ## Incoming Directors
 
@@ -28,4 +28,4 @@ Tim Schilling has been a member of the Django community since 2013. He is curren
 
 ### Peter Grandstaff
 
-Peter is a django developer and co-founder of Two Rock Software, a North Carolina based software development company specializing in business workflow automation. He also enjoys solving devops puzzles. When he's not working he loves exploring new foods, gardening, and movement practices like martial arts, aerial dance, and contact improv.
+Peter is a Django developer and co-founder of Two Rock Software, a North Carolina based software development company specializing in business workflow automation. He also enjoys solving devops puzzles. When he's not working he loves exploring new foods, gardening, and movement practices like martial arts, aerial dance, and contact improv.

@@ -1,9 +1,9 @@
 ---
 github: PeterGrand
-index: 9
+index: 1
 name: Peter Grandstaff
 photo_url: "/img/board/peter.jpg"
-role: "DEFNA Director"
+role: "DEFNA President"
 twitter:
 website: https://tworock.io/
 ---

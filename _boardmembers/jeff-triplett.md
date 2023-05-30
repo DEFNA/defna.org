@@ -1,9 +1,9 @@
 ---
 github: "jefftriplett"
-index: 1
+index: 5
 name: "Jeff Triplett"
 photo_url: "/img/board/jeff.png"
-role: "President and DEFNA Co-Founder"
+role: "DEFNA Co-Founder"
 twitter: "webology"
 website: "https://webology.dev"
 ---

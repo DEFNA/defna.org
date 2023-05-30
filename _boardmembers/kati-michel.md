@@ -1,9 +1,9 @@
 ---
 github: "KatherineMichel"
-index: 4
+index: 6
 name: "Katherine 'Kati' Michel"
 photo_url: "/img/board/kati.png"
-role: "DEFNA Secretary"
+role: "DEFNA Director"
 twitter: "KatiMichel"
 website: " "
 ---

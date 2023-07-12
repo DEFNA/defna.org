@@ -29,7 +29,7 @@ We need some information about your city, about the venue, the hotel, and travel
 	* Location
 	* Transportation options (how do people get there from the airport?)
 	* Attendance capacity
-	* Assurance that the venue can provide the following spaces (A floorplan with explanation of what will go where would be great.):
+	* Assurance that the venue can provide the following spaces (A floorplan with a rough explanation of what will go where would be great.):
 		* Keynote room (also Sessions Track A) to accommodate up to 450 people, classroom style (tables with chairs)
 		* Room for Sessions Track B to accommodate up to 200 people, classroom style (tables with chairs)
 		* Space for sponsors to set up exhibit booths/tables; at least 12, and up to 16, sponsors with either 6’ tables or 10’ x 10’ booth spaces. If more sponsor booth space is available, that's a plus.

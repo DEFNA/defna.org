@@ -61,7 +61,7 @@ We need some information about your city, about the venue, the hotel, and travel
 	* Location
 	* Transportation options (how do people get there from the hotel?)
 	* Attendance capacity
-	* Information on local companies that might host the sprints at no cost.
+	* Information on local companies that might be willing to host the sprints at no cost.
 	* A good sprint venue is/has the following:
 		* Easy to reach from the conference hotel
 		* A room to hold 50-75 people, with work tables, chairs, power, and internet connectivity

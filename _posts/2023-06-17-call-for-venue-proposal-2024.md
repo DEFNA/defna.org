@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DjangoCon US: Call for Venue Proposal 2024"
-date: 2023-06-17 12:00:00
+date: 2023-07-13 12:00:00
 categories: ""
 author_name : DEFNA
 author_url : /about

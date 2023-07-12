@@ -40,7 +40,7 @@ We need some information about your city, about the venue, the hotel, and travel
 		* Secure overnight storage for vendor booth supplies and conference registration desk items.
 
 	* Explanation of catering options available at the venue that can cover:
-		* 450 people per day: Breakfast, morning break, lunch, afternoon break, and all day beverage service.
+		* 450 people per day during the main conference: Breakfast, morning break, lunch, afternoon break, and all day beverage service.
 		* Catering must have options for celiacs, vegetarians, and vegans of equal quality and variety as main menu. Estimate 15% vegetarian, 5% vegan, and 5-10% gluten-free (some of which may overlap with the other two groups).
 		* The ability to serve a meal to 350—450 people in a 90 minute window.
 

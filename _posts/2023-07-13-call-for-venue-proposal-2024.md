@@ -10,7 +10,7 @@ show_avatar : true
 read_time : ""
 feature_image: 2016-06-08
 show_related_posts: false
-permalink: /announcements/2023/6/17/djangocon-us-call-for-venue-proposal-2024/
+permalink: /announcements/2023/7/13/djangocon-us-call-for-venue-proposal-2024/
 ---
 
 We’re in the middle of planning DjangoCon US 2023, so it’s time to think about 2024! Where will we be next year? We need your help in making that decision!

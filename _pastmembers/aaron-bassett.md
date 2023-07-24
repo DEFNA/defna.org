@@ -1,6 +1,7 @@
 ---
+layout: page
 github: aaronbassett
-index: 9
+index: 10
 name: Aaron Bassett
 photo_url:
 role: "DEFNA Director"

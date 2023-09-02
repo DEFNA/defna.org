@@ -10,6 +10,7 @@ read_time: ""
 show_avatar: true
 show_related_posts: false
 title: "Board Member Update for July 2023"
+permalink: /announcements/2023/07/24/board-updates/
 ---
 
 We have a new board member as of July 2023!

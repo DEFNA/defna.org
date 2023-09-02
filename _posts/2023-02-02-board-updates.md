@@ -10,6 +10,7 @@ read_time: ""
 show_avatar: true
 show_related_posts: false
 title: "Board Member Update for 2023"
+permalink: /announcements/2023/02/17/board-updates/
 ---
 
 ## Outgoing Directors

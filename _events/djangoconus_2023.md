@@ -10,4 +10,4 @@ sprints: "October 19-20, 2023"
 website: "https://2023.djangocon.us"
 ---
 
-We are pleased to announce that the DjangoCon US 2023 conference will take place in Durham, North Carolina from October 11-16, 2023 at the Durham Convention Center.
+We are pleased to announce that the DjangoCon US 2023 conference will take place in Durham, North Carolina from October 16-20, 2023 at the Durham Convention Center.

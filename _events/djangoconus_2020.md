@@ -10,4 +10,4 @@ sprints: "October 15-16, 2020"
 website: "https://2020.djangocon.us"
 ---
 
-We are pleased to announce that the DjangoCon US 2020 conference will take place in San Diego, California from October 11-16, 2020 at the Diego Marriott of Mission Valley.
+We regret to inform you that the DjangoCon US 2020 conference was cancelled due to the COVID-19 pandemic. It was scheduled to take place in San Diego, California from October 11-16, 2020 at the Diego Marriott of Mission Valley.

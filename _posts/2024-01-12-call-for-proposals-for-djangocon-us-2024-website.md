@@ -13,9 +13,9 @@ show_related_posts: false
 permalink: /announcements/2024/01/12/call-for-proposals-for-djangocon-2024-website/
 ---
 
-### Introduction
+We are looking for assistance with our DjangoCon US website design, conference swag, and art direction.
 
-We are looking for assistance with our DjangoCon US website design, and conference swag and art direction.
+### Introduction
 
 Our main goal for 2024 [(repo here)](https://github.com/djangocon/2024.djangocon.us) is to update our color scheme, logos, and [style guide](https://2023.djangocon.us/styleguide/) to fit the theme of the host city, which will be announced very soon.
 
@@ -25,9 +25,9 @@ We'd also like your help with our swag and art direction which includes our back
 
 ## Website Overview
 
-In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. 
+In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub.
 
-In 2024, we would like to take it a step further and find an easier to use [Jamstack static site generator](https://jamstack.org/generators/) using Tailwind CSS (current site uses Foundation). As this is not as simple as reusing code as we have in previous years, our Website chair is offering time and assistance towards this goal. 
+In 2024, we would like to take it a step further and find an easier to use [Jamstack static site generator](https://jamstack.org/generators/) using Tailwind CSS (current site uses Foundation). As this is not as simple as reusing code as we have in previous years, our Website chair is offering time and assistance towards this goal.
 
 Our reasons for this include:
 

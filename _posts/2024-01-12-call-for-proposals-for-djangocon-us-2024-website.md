@@ -25,23 +25,17 @@ We'd also like your help with our swag and art direction which includes our back
 
 ## Website Overview
 
-In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. While we are not wedded to the use of Jekyll, there are a number of advantages to this static site generator type of approach:
+In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. 
 
-* Much of the website layout code can be reused from year to year
-* New designs can be implemented more quickly and easily
-* Website documentation is more easily maintained
-* The number of contributions and contributors has drastically increased (many contributions can be made through markdown alone)
+In 2024, we would like to take it a step further and use a Node-based static site generator using Tailwind CSS (current site uses Foundation). As this is not as simple as reusing code as we have in previous years, our Website chair is offering time and assistance towards this goal. 
 
-## Website Technical Specifications
+Our reasons for this include:
 
-The 2023 DjangoCon US website currently uses the following software tools:
-	* Hosted on Github Pages (using Jekyll static site generator)
-	* Foundation responsive design framework
-	* Sass CSS extension language
-	* Gulp to compile for production
-	* npm for installation of front end dependencies
+* All the same great benefits of Jekyll wouild still apply
+* Jekyll can be cumbersome for some non-technical folks to install on their machines and work with
+* Node-based static site generator can be spun up on a Github codespace (or similar) relatively easily
+* May be easier for folks to contribute with a more popular and relevant CSS framework
 
-Here is the link to the DjangoCon US 2023 website repo, including README documentation: [https://github.com/djangocon/2023.djangocon.us](https://github.com/djangocon/2023.djangocon.us)
 
 ## Landing Page, Website Design, Art Direction Deliverables
 
@@ -61,6 +55,7 @@ DjangoCon US will need:
 * Sponsorship submission form hosted through third-party
 * Landing page copy
 * The 2023 website which shows a complete and working implementation of what we are looking for
+* Technical assistance
 
 ## Full Website Deliverable
 

@@ -27,13 +27,13 @@ We'd also like your help with our swag and art direction which includes our back
 
 In 2017, the DjangoCon US website was re-built using the static site generator Jekyll and hosted on GitHub. 
 
-In 2024, we would like to take it a step further and use a Node-based static site generator using Tailwind CSS (current site uses Foundation). As this is not as simple as reusing code as we have in previous years, our Website chair is offering time and assistance towards this goal. 
+In 2024, we would like to take it a step further and find an easier to use [Jamstack static site generator](https://jamstack.org/generators/) using Tailwind CSS (current site uses Foundation). As this is not as simple as reusing code as we have in previous years, our Website chair is offering time and assistance towards this goal. 
 
 Our reasons for this include:
 
 * All the same great benefits of Jekyll wouild still apply
 * Jekyll can be cumbersome for some non-technical folks to install on their machines and work with
-* Node-based static site generator can be spun up on a Github codespace (or similar) relatively easily
+* A Javascript/Typescript/Node/etc based static site generator can be spun up on a Github codespace (or similar) relatively easily
 * May be easier for folks to contribute with a more popular and relevant CSS framework
 
 

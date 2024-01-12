@@ -13,7 +13,7 @@ show_related_posts: false
 permalink: /announcements/2024/01/12/call-for-proposals-for-djangocon-2024-website/
 ---
 
-We are looking for assistance with our DjangoCon US website design, conference swag, and art direction.
+We are looking to hire a person, firm or company to assist with our DjangoCon US website design, conference swag, and art direction.
 
 ### Introduction
 

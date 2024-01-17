@@ -13,7 +13,7 @@ title:  "DjangoCon US 2024 has been announced!"
 permalink: /announcements/2024/01/17/djangoconus-2024-announced/
 ---
 
-Hello everyone, DjangoCon US 2024 has dates! September 22nd-27th.
+Hello everyone, [DjangoCon US 2024](https://2024.djangocon.us) has dates! September 22nd-27th.
 
 The conference will have tutorials on Sunday, September 22, talks from Monday,
 September 23rd, through Wednesday, September 25th, and sprints on Thursday and Friday September 26th and 27th, 2024.

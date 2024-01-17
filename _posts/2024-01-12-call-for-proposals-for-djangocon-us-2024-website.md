@@ -48,6 +48,16 @@ DjangoCon US will need:
 	* A marketing teaser
 	* Link to sponsorship info
 	* Link to our code of conduct
+* Layouts for major pages:
+	* Code of Conduct
+	* Conference schedule
+	* Talk/Tutorial details
+	* Venue details
+	* Call for proposals
+	* Presenter details
+	* Open Graph previews for schedule details and presenters
+	* Blog list
+	* Blog details
 * Updated website design including city design, color scheme, logos, and updated style guide.
 * Ideas and art direction for our swag and signage
 
@@ -56,12 +66,12 @@ DjangoCon US will need:
 * City and date information
 * Sponsorship submission form hosted through third-party
 * Landing page copy
-* The 2023 website which shows a complete and working implementation of what we are looking for
+* The [2023 website](https://github.com/djangocon/2023.djangocon.us/) which shows a complete and working implementation of what we are looking for
 * Technical assistance
 
 ## Full Website Deliverable
 
-* Delivery of the full website design and ideally a starter code base including layouts for blog posts and a few major landing pages such as the call for proposals, venue details, and code of conduct
+* Delivery of the full website design and ideally a starter code base including layouts for the pages listed in the deliverables section
 * Responsive design that supports mobile, tablet, and desktop devices
 * Accessibility and usability features
 

@@ -55,9 +55,9 @@ DjangoCon US will need:
 	* Venue details
 	* Call for proposals
 	* Presenter details
-	* Open Graph previews for schedule details and presenters
 	* Blog list
 	* Blog details
+* Open Graph previews for schedule details and presenters
 * Updated website design including city design, color scheme, logos, and updated style guide.
 * Ideas and art direction for our swag and signage
 

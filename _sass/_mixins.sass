@@ -16,6 +16,10 @@
         @media (min-width: 1200px)
             @content
 
+    @else if $size == xl
+        @media (min-width: 1800px)
+            @content
+
 @mixin font-size($value)
     font-size: $value + px
     font-size: ($value / 10) + rem

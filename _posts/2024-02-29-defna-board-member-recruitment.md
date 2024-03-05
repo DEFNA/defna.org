@@ -14,7 +14,7 @@ permalink: /announcements/2024/02/29/defna-board-member-recruitment/
 ---
 
 
-Django Events Foundation North America (DEFNA) is looking for another board member. We have a nine-member board; one of our board members is stepping down as soon as a replacement is confirmed. We are looking for a new board member who is interested in growing the DjangoCon US community.
+Django Events Foundation North America (DEFNA) is looking for another board member. We have a nine-member board; one of our board members will be stepping down as soon as a replacement is confirmed. We are looking for a new board member who is interested in growing the DjangoCon US community.
 
 Currently we don't have a Corporate Treasurer to manage our finances. We're considering hiring an accounting firm to do most of the finance work. This means the new Treasurer would focus more on overseeing our finances instead of doing all the data entry. If you're passionate about DjangoCon US and have some experience or interest in managing finances, please highlight that!
 

@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 include_twocols: true
-feature_image: feature-defna2
+feature_image: defna2023
 logo_image: DEFNA-Logotype.png
 ---
 

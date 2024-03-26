@@ -15,6 +15,8 @@ permalink: /announcements/2024/01/12/call-for-proposals-for-djangocon-2024-websi
 
 We are looking to hire a person, firm or company to assist with our DjangoCon US website design, conference swag, and art direction.
 
+**Updated** January 17 to clarify deliverables and what kind of bid we're looking for
+
 ### Introduction
 
 Our main goal for 2024 [(repo here)](https://github.com/djangocon/2024.djangocon.us) is to update our color scheme, logos, and [style guide](https://2023.djangocon.us/styleguide/) to fit the theme of the host city, which will be announced very soon.
@@ -46,6 +48,16 @@ DjangoCon US will need:
 	* A marketing teaser
 	* Link to sponsorship info
 	* Link to our code of conduct
+* Layouts for major pages:
+	* Code of Conduct
+	* Conference schedule
+	* Talk/Tutorial details
+	* Venue details
+	* Call for proposals
+	* Presenter details
+	* Blog list
+	* Blog details
+* Open Graph previews for schedule details and presenters
 * Updated website design including city design, color scheme, logos, and updated style guide.
 * Ideas and art direction for our swag and signage
 
@@ -54,12 +66,12 @@ DjangoCon US will need:
 * City and date information
 * Sponsorship submission form hosted through third-party
 * Landing page copy
-* The 2023 website which shows a complete and working implementation of what we are looking for
+* The [2023 website](https://github.com/djangocon/2023.djangocon.us/) which shows a complete and working implementation of what we are looking for
 * Technical assistance
 
 ## Full Website Deliverable
 
-* Delivery of the full website design
+* Delivery of the full website design and ideally a starter code base including layouts for the pages listed in the deliverables section
 * Responsive design that supports mobile, tablet, and desktop devices
 * Accessibility and usability features
 
@@ -80,6 +92,6 @@ DjangoCon US organizers and open-source community members will provide additiona
 
 ## Submission Instructions
 
-Please provide an electronic copy of your submission to our email address [hello@defna.org](mailto:hello@defna.org). You can also email any questions that you have to our email address.
+Please provide an electronic copy of your submission to our email address [hello@defna.org](mailto:hello@defna.org). We are looking for a fixed bid for the entire project rather than an hourly rate. You can also email any questions that you have to our email address.
 
 We look forward to hearing from you!

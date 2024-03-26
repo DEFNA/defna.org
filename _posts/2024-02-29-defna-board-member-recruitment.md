@@ -33,6 +33,6 @@ If you'd like to be considered for the board, drop us a note at hello@defna.org,
 * Any ideas you have for expanding DEFNA's reach in the OSS community
 * Anything else you'd like us to know about you as a potential board member
 
-Please email your information to us by March 15 at 6:00 PM Pacific Time. We'll contact you if we need more details. We'll make our decision and reply to everyone by end-of-day April 4th.
+Please email your information to us by April 9th at 6:00 PM Pacific Time. We'll contact you if we need more details. We'll make our decision and reply to everyone by end-of-day April 25th.
 
 Read more about [DEFNA's board members](https://www.defna.org/about/).

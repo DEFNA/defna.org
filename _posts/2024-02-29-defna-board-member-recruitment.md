@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Join DEFNA! Board Member Recruitment"
-date: 2024-02-29 12:30:00
+date: 2024-03-26 12:30:00
 categories: ""
 author_name : DEFNA
 author_url : /about
 author_avatar: defna
 show_avatar : true
 read_time : ""
-feature_image: 2024-02-29
+feature_image: 2024-03-26
 show_related_posts: false
-permalink: /announcements/2024/02/29/defna-board-member-recruitment/
+permalink: /announcements/2024/03/26/defna-board-member-recruitment/
 ---
 
 

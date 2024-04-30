@@ -17,7 +17,7 @@ We have a new board member as of May 2024!
 
 ## Outgoing Director
 
-We want to take a moment to thank our outgoing director and Treasurer, Jennifer Myers, for her contributions to our board during her years of service. Jen joined the board in 2021 and has been an invaluable asset to the board during her tenure. <Need something here>. We are deeply grateful for the time and effort she has invested.
+We want to take a moment to thank our outgoing director and Treasurer, Jennifer Myers, for her contributions to our board during her years of service. Jen joined the board in 2021 and has been an invaluable asset to the board during her tenure. She spent many hours keeping the organization's finances in order and making sure all of our grant recipients and speakers received their reimbursements correctly. We are deeply grateful for the time and effort she has invested, and her presence on the board will be missed.
 
 ## Incoming Director
 

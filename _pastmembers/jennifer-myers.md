@@ -1,6 +1,6 @@
 ---
 github: ""
-index: 3
+index: 11
 name: "Jennifer Myers"
 photo_url: "/img/board/jen.jpg"
 role: "DEFNA Treasurer"

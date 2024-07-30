@@ -13,6 +13,8 @@ show_related_posts: false
 permalink: /announcements/2024/5/9/djangocon-us-call-for-venue-proposal-2025/
 ---
 
+_Edit 2024-07-30:_ We did not receive any submissions by the original deadline of July 28th. We are extending it to August 13th, 2024.
+
 We’re in the middle of planning DjangoCon US 2024, so it’s time to think about 2025! Where will we be next year? We need your help in making that decision!
 
 So you want your city to host DjangoCon US? Hurrah! We’re delighted by your interest. Here’s what you need to know, and what we need to know, to consider your proposal.
@@ -101,6 +103,6 @@ Since we are considering a number of proposals, *no one from your group should s
 
 If DEFNA chooses your group's proposal, your group is responsible for putting DEFNA in contact with the venue management to finalize the event agreement.
 
-In order for us to make a decision in time to announce next year’s venue at the end of the Durham conference, please submit your proposal no later than July 28, 2024.
+In order for us to make a decision in time to announce next year’s venue at the end of the Durham conference, please submit your proposal no later than ~~July 28, 2024~~ August 13, 2024.
 
 Thanks so much! We look forward to hearing about all the fantastic places we can go next year!

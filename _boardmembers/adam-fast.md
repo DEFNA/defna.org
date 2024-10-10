@@ -1,9 +1,9 @@
 ---
 github: "adamfast"
-index: 7
+index: 3
 name: "Adam Fast"
 photo_url: "/img/board/adam.png"
-role: "A/V Chair"
+role: "DEFNA Treasurer and A/V Chair"
 twitter: "adamcanfly"
 website: "http://www.adamfast.com/"
 ---

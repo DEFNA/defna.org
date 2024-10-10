@@ -1,9 +1,9 @@
 ---
 github: "drewbrew"
-index: 2
+index: 6
 name: "Drew Winstel"
 photo_url: "/img/board/drew.png"
-role: "DEFNA Vice President"
+role: "DEFNA Director"
 twitter: ""
 website: ""
 ---

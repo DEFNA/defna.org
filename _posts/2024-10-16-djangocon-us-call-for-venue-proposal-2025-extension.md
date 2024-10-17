@@ -19,7 +19,7 @@ However, since we have yet to find a proposal that meets all of our needs we're 
 
 If you are interested in bringing DjangoCon US to your city for 2025 and/or 2026, please submit your proposal to [hello@defna.org](mailto:hello@defna.org) no later than November 15, 2024.
 
-For 2025, we are looking at conference dates of October 5-10, 2025 or October 12-17, 2025.
+For 2025, we are looking at conference dates of October 5-10, 2025. We are no longer interested in dates of October 12-17, 2025 as they conflict with Sukkot.
 
 We need some information about your city, about the venue, the hotel, and travel. Your proposal doesn’t have to be super-fancy, just informative. The proposal should include the following:
 

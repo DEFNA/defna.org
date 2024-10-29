@@ -13,7 +13,7 @@ show_related_posts: false
 permalink: /announcements/2024/10/16/djangocon-us-call-for-venue-proposal-2025-extension/
 ---
 
-First off, thank you to the teams who sent in proposals. We're very appreciate of the time and effort that you've put in to this point.
+First off, thank you to the teams who sent in proposals. We're very appreciative of the time and effort that you've put in to this point.
 
 However, since we have yet to find a proposal that meets all of our needs we're officially re-opening our call of venue proposals.
 

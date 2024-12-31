@@ -9,7 +9,7 @@ layout: post
 read_time: ""
 show_avatar: true
 show_related_posts: false
-title:  "DjangoCon US 2024 has been announced!"
+title:  "DjangoCon US 2025 has been announced!"
 permalink: /announcements/2024/12/31/djangoconus-2025-announced/
 ---
 

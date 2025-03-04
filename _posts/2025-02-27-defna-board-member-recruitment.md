@@ -43,6 +43,6 @@ If you're interested in contributing to DEFNA in this role, please reach out to 
 - Any ideas for expanding DEFNA’s reach in the open-source community.
 - Anything else you’d like us to know about you as a potential board member.
 
-Please email your information to us by March 10 at 12:00 PM ET (Eastern Time). We'll contact you if we need more details. We'll make our decision and reply to everyone by end-of-day March 20.
+Please email your information to us by March 10 at 12:00 PM ET (Eastern Time)/1600hrs UTC. We'll contact you if we need more details. We'll make our decision and reply to everyone by end-of-day March 20.
 
 Read more about [DEFNA's board members](https://www.defna.org/about/).

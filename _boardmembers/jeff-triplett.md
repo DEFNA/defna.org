@@ -1,6 +1,6 @@
 ---
 github: "jefftriplett"
-index: 5
+index: 4
 name: "Jeff Triplett"
 photo_url: "/img/board/jeff.png"
 role: "DEFNA Co-Founder"

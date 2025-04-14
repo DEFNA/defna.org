@@ -1,12 +1,12 @@
 ---
 layout: page
-github: 
+github: "elarroba"
 index: 9
-name: Miguel Sanda
+name: "Miguel Sanda"
 photo_url: "/img/board/miguel.jpeg"
 role: "DEFNA Director"
-twitter: 
-website: 
+twitter: "elarroba"
+website: "https://www.miguelsanda.com"
 ---
 
 Miguel Sanda is a software developer, data scientist, and entrepreneur with over 18 years of experience spanning the energy, food, and financial industries. As the creator and lead developer of Django Ledger, an open-source financial engine built on the Django framework, Miguel has dedicated his career to bridging the gap between software development and financial management.

@@ -1,6 +1,6 @@
 ---
 github: "VeldaKiara"
-index: 9
+index: 8
 name: "Velda Kiara"
 photo_url: "/img/board/velda.png"
 role: "DEFNA Director"

@@ -1,6 +1,6 @@
 ---
 github: tim-schilling
-index: 4
+index: 12
 name: Tim Schilling
 photo_url: "/img/board/tim.jpeg"
 role: "DEFNA Secretary"

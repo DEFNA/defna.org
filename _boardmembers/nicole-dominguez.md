@@ -1,7 +1,7 @@
 ---
 layout: page
 github: sodevious
-index: 7
+index: 2
 name: Nicole Dominguez
 photo_url: "/img/board/nicole.jpg"
 role: "DEFNA Director"

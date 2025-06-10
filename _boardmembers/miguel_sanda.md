@@ -1,7 +1,7 @@
 ---
 layout: page
 github: 
-index: 9
+index: 3
 name: Miguel Sanda
 photo_url: "/img/board/miguel.jpeg"
 role: "DEFNA Director"

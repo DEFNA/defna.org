@@ -1,6 +1,6 @@
 ---
 github: "adamfast"
-index: 3
+index: 6
 name: "Adam Fast"
 photo_url: "/img/board/adam.png"
 role: "DEFNA Treasurer and A/V Chair"

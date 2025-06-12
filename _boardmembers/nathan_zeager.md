@@ -1,7 +1,7 @@
 ---
 layout: page
 github: "nzeager"
-index: 10
+index: 4
 name: Nathan Zeager
 photo_url: "/img/board/nathan.jpg"
 role: "DEFNA Director"

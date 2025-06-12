@@ -1,6 +1,6 @@
 ---
 github: ""
-index: 2
+index: 5
 name: "Carol Ganz"
 photo_url: "/img/board/carol.jpg"
 role: "DEFNA Vice President"

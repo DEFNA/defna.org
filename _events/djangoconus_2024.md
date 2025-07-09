@@ -5,7 +5,7 @@ logo_url: "/img/events/djangocon2024-blue.svg"
 dates: "Sun, Sep 22, 2024 9:00 AM  Fri, Sep 27, 2024 5:00 PM"
 place: "Durham, North Carolina"
 tutorials: "September 22, 2024"
-talks: "September 22-24, 2024"
+talks: "September 23-25, 2024"
 sprints: "September 25-27, 2024"
 website: "https://2024.djangocon.us"
 ---

@@ -4,9 +4,9 @@ github: sodevious
 index: 2
 name: Nicole Dominguez
 photo_url: "/img/board/nicole.jpg"
-role: "DEFNA Director"
+role: "DEFNA Vice President"
 twitter: sodevious
 website: https://nicoledominguez.com/
 ---
 
-Nicole is a front-end developer/designer and consultant working with agencies and small businesses. Django has been a part of her primary tech stack for a decade. An avid traveler and part-time digital nomad, she spends her time between Durham, NC and Miami, FL. She enjoys pet sitting (all of the cuddles without the permanent responsibility), yoga, crafts and nail art.
+Nicole works remotely as a Design Engineer at an Ed-Tech startup, with Django being a part of her primary tech stack for a the last decade. She lives in Raleigh, NC with her partner and two loving cats. Aside from work and community work with DEFNA, she is an avid [speed puzzler](https://notjustahobby.com/hobbies/speed-puzzling) and frequently competes in competitive jigsaw puzzling competitions.

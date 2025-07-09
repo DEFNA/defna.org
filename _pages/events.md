@@ -21,7 +21,7 @@ form_heading: Events
 <li>{{event.content}}</li>
 </ul>
 <ul>
-<li>Tutorials: {{event.tutorials}}</li>
+{% if event.tutorials %}<li>Tutorials: {{event.tutorials}}</li>{% endif %}
 <li>Talks: {{event.talks}}</li>
 <li>Sprints: {{event.sprints}}</li>
 </ul>

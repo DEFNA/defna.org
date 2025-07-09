@@ -1,7 +1,7 @@
 ---
 layout: events
 name: "DjangoCon US 2024"
-logo_url: "/img/events/djangocon2024.svg"
+logo_url: "/img/events/djangocon2024-blue.svg"
 dates: "Sun, Sep 22, 2024 9:00 AM  Fri, Sep 27, 2024 5:00 PM"
 place: "Durham, North Carolina"
 tutorials: "September 22, 2024"

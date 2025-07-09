@@ -1,7 +1,7 @@
 ---
 layout: events
 name: "DjangoCon US 2025"
-logo_url: "/img/events/djangocon2025.svg"
+logo_url: "/img/events/djangocon2025-pink.svg"
 dates: "Mon, Sep 8, 2025 9:00 AM  Fri, Sep 12, 2025 5:00 PM"
 place: "voco Chicago Downtown"
 tutorials: "September 8, 2025"

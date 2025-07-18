@@ -10,10 +10,11 @@ We want to express our sincere thanks to Kati Michel for her eight years of serv
 
 Kati played a key role in shaping DjangoCon US and DEFNA through her leadership on the Website Committee and her contributions to our overall direction. Her dedication, attention to detail, and commitment to the Django community have left a lasting impression.
 
-Thank you, Kati, for everything you’ve done. We appreciate your service and look forward to staying connected.
-
 ### Tim Schilling
-{{Blurb about Tim}}
+
+During his tenure on the DEFNA board, Tim  played a pivotal role, particularly as corporate secretary. Known for his thoughtful leadership, he brought structure and clarity to board processes, substantially improving documentation and operational workflows. Tim's organizational skills not only benefited internal initiatives, but also fostered transparency and efficiency across Django's flagship events and programs.
+
+Thank you, Kati and Tim, for everything you've done. We appreciate your service and look forward to staying connected.
 
 
 ## Incoming Directors
@@ -33,6 +34,7 @@ Nathan is a software developer, barista, and co-founder of Bismuth Cooperative, 
 ## Incoming Directors
 
 The DEFNA Board conducted elections in May. Congratulations to the returning and new officers:
+
 President: Peter Grandstaff
 Vice President: Nicole Dominguez
 Treasurer: Miguel Sanda

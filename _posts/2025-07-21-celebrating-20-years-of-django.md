@@ -23,7 +23,7 @@ At the Django Events Foundation North America (DEFNA), we are proud to steward [
 
 Since its inception, DjangoCon US has brought together developers, educators, and innovators for a week of learning, sharing, and connection. Each year, the conference features:
 
-* Inspiring talks and tutorials from community leaders and newcomers alike
+* Inspiring talks from community leaders and newcomers alike
 
 * Hands-on sprints to advance Django and its ecosystem
 

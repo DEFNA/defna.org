@@ -19,7 +19,7 @@ Django’s philosophy—*the web framework for perfectionists with deadlines*—
 
 ## **The Heartbeat of Our Commitment: DjangoCon US**
 
-At the Django Events Foundation North America (DEFNA), we are proud to steward DjangoCon US (http://2025.djangocon.us), the flagship conference for Django enthusiasts in North America.
+At the Django Events Foundation North America (DEFNA), we are proud to steward [DjangoCon US](https://2025.djangocon.us), the flagship conference for Django enthusiasts in North America.
 
 Since its inception, DjangoCon US has brought together developers, educators, and innovators for a week of learning, sharing, and connection. Each year, the conference features:
 
@@ -49,7 +49,7 @@ We believe that the strength of Django lies in its community. By nurturing conne
 
 ## **Join Us on the Journey**
 
-Whether you’ve been with Django since the beginning or are just discovering its possibilities, we invite you to be part of our story. Attend DjangoCon US (http://2025.djangocon.us), volunteer, share your expertise, or simply connect with fellow enthusiasts. Together, we can build a brighter, more inclusive future for Django and the web.
+Whether you’ve been with Django since the beginning or are just discovering its possibilities, we invite you to be part of our story. Attend [DjangoCon US](https://2025.djangocon.us), volunteer, share your expertise, or simply connect with fellow enthusiasts. Together, we can build a brighter, more inclusive future for Django and the web.
 
 **Happy 20th anniversary, Django! Here’s to many more years of innovation, collaboration, and community.**
 

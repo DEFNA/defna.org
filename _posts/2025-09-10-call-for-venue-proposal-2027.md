@@ -103,6 +103,6 @@ Since we are considering a number of proposals, *no one from your group should s
 
 If DEFNA chooses your group's proposal, your group is responsible for putting DEFNA in contact with the venue management to finalize the event agreement.
 
-In order for us to make a decision in time to announce next year’s venue at the end of the Durham conference, please submit your proposal to [hello@defna.org](mailto:hello@defna.org) no later than January 15, 2025.
+In order for us to make a decision in time to announce next year’s venue at the end of the Durham conference, please submit your proposal to [hello@defna.org](mailto:hello@defna.org) no later than January 15, 2026.
 
 Thanks so much! We look forward to hearing about all the fantastic places we can go next year!

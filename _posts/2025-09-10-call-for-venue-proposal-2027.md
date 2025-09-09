@@ -97,7 +97,7 @@ We need some information about your city, about the venue, the hotel, and travel
 
 7. Any additional ideas for making the event especially useful and/or memorable.
 
-8. Any information about whether venues would be willing to sign multi-year deals. Hosting DjangoCon US at the same Marriott in San Diego made venue coordination in 2019 and 2022 considerably easier than having to interact with a new venue each year.
+8. Any information about whether venues would be willing to sign multi-year deals. Hosting DjangoCon US at the same venue in Durham made venue coordination in 2023 and 2024 considerably easier than having to interact with a new venue each year.
 
 Since we are considering a number of proposals, *no one from your group should sign a binding contract* or make any kind of legal or financial commitment.
 

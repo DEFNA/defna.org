@@ -8,7 +8,7 @@ author_url : /about
 author_avatar: defna
 show_avatar : true
 read_time : ""
-feature_image: dcus24-droup
+feature_image: dcus24-group
 show_related_posts: false
 permalink: /announcements/2025/9/10/djangocon-us-call-for-venue-proposal-2027/
 ---

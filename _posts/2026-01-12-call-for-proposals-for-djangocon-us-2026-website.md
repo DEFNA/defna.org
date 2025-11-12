@@ -8,7 +8,7 @@ author_url : /about
 author_avatar: defna
 show_avatar : true
 read_time : ""
-feature_image: dcus26-group
+feature_image: 2025
 show_related_posts: false
 permalink: /announcements/2026/01/12/call-for-proposals-for-djangocon-2026-website/
 ---
@@ -17,7 +17,7 @@ DjangoCon US 2026 needs new branding, art direction, graphic design, website des
 
 ### Introduction
 
-Our main goal for 2026 [(repo here)](https://github.com/djangocon/2026.djangocon.us) is to update our 2026 logo/brand, color scheme, illustrations, and [style guide](https://2025.djangocon.us/styleguide/) to fit the theme of our host city, Chicago.
+Our main goal for 2026 [(repo here)](https://github.com/djangocon/2026.djangocon.us) is to update the logo/brand, color scheme, illustrations, and [style guide](https://2025.djangocon.us/styleguide/) to fit the theme of our host city, Chicago.
 
 We have all of our 2025 data to work with which includes all of our content along with our speakers and schedule (talks, tutorials, and sprint information) which can be used to verify and test with.
 
@@ -78,7 +78,7 @@ DjangoCon US organizers and open-source community members will provide additiona
 2. Deadline to submit proposal: December 10, 2025
 3. Decision: December 19, 2025
 
-*Please note these dates are subject to change. *
+_Please note these dates are subject to change._
 
 ## Submission Instructions
 

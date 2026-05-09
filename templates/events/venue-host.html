@@ -108,10 +108,10 @@
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 
       {# Basic info #}
-        <div class="p-6 rounded-xl border border-gray-200 bg-django-green  ">
+        <div class="p-6 rounded-xl border border-gray-200 bg-django-green">
           <h3 class="mb-4 text-lg font-bold text-white">Basic Information</h3>
           <ul class="space-y-2">
-            {%  for item in venue_basic %}
+            {% for item in venue_basic %}
               <li class="flex gap-3 items-start text-sm text-white">
                 <svg class="mt-0.5 w-4 h-4 text-django-green-light shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -123,7 +123,7 @@
         </div>
 
       {# Required spaces #}
-        <div class="p-6 rounded-xl border border-gray-200 bg-django-green ">
+        <div class="p-6 rounded-xl border border-gray-200 bg-django-green">
           <h3 class="mb-4 text-lg font-bold text-white">Required Spaces</h3>
           <p class="mb-3 text-xs text-white">A floorplan with a rough explanation of what will go where would be great.</p>
           <ul class="space-y-2">
@@ -287,7 +287,7 @@
           </p>
           <ul class="flex flex-wrap gap-2">
             {% for city in hub_cities %}
-              <li class="py-1 px-3 text-sm rounded-full border border-gray-200 bg-django-green text-white">{{ city }}</li>
+              <li class="py-1 px-3 text-sm text-white rounded-full border border-gray-200 bg-django-green">{{ city }}</li>
             {% endfor %}
           </ul>
         </div>

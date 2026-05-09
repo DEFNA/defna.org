@@ -380,7 +380,6 @@
     --color-surface-alt: #abd1c6;
     --color-text: #001e1d;
     --color-text-muted: #0f3433;
-    --color-accent-red: #e16162;
   }
 }
 @layer base {
@@ -2576,9 +2575,6 @@
   .border-yellow-200 {
     border-color: var(--color-yellow-200);
   }
-  .bg-\[\#00D64F\] {
-    background-color: #00D64F;
-  }
   .bg-\[\#1a1a1a\] {
     background-color: #1a1a1a;
   }
@@ -3373,9 +3369,6 @@
   .text-blue-700 {
     color: var(--color-blue-700);
   }
-  .text-defna-gold {
-    color: var(--color-defna-gold);
-  }
   .text-defna-gold-dark {
     color: var(--color-defna-gold-dark);
   }
@@ -4070,13 +4063,6 @@
       }
     }
   }
-  .hover\:bg-\[\#00b843\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #00b843;
-      }
-    }
-  }
   .hover\:bg-\[\#005ea6\] {
     &:hover {
       @media (hover: hover) {
@@ -4397,11 +4383,6 @@
   .sm\:min-h-\[340px\] {
     @media (width >= 40rem) {
       min-height: 340px;
-    }
-  }
-  .sm\:w-36 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 36);
     }
   }
   .sm\:w-48 {

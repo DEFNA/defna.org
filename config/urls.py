@@ -3,6 +3,8 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include
 from django.urls import path
+from django.urls import re_path
+from django.views.static import serve
 
 from config import __version__
 from health_check.views import HealthCheckView
@@ -14,6 +16,7 @@ admin.site.site_title = admin_header
 
 urlpatterns = [
     path("", include("website.urls")),
+    path("accounts/", include("allauth.urls")),
     path("markdownx/", include("markdownx.urls")),
     path(settings.ADMIN_URL, admin.site.urls),
     path(
@@ -26,6 +29,10 @@ urlpatterns = [
             ]
         ),
     ),
+]
+
+urlpatterns += [
+    re_path(r"^media/(?P<path>.*)$", serve, {"document_root": settings.MEDIA_ROOT}),
 ]
 
 if settings.DEBUG:

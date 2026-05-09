@@ -7,6 +7,7 @@ from website.models import BlogPost
 from website.models import BoardMember
 from website.models import DjangoConEdition
 from website.models import GrantCycle
+from website.models import Milestone
 from website.models import SponsoredEvent
 
 
@@ -20,19 +21,6 @@ class HomeView(TemplateView):
         return ctx
 
 
-BOARD_PLACEHOLDER_ROLES = [
-    "President",
-    "Vice President",
-    "Secretary",
-    "Treasurer",
-    "Director",
-    "Director",
-    "Director",
-    "Director",
-    "Director",
-]
-
-
 class AboutView(TemplateView):
     template_name = "about.html"
 
@@ -41,7 +29,7 @@ class AboutView(TemplateView):
         ctx["board"] = BoardMember.objects.filter(is_current=True)
         ctx["emeritus"] = BoardMember.objects.filter(is_current=False, is_emeritus=True)
         ctx["alumni"] = BoardMember.objects.filter(is_current=False, is_emeritus=False)
-        ctx["board_placeholder_roles"] = BOARD_PLACEHOLDER_ROLES
+        ctx["milestones"] = Milestone.objects.all()
         return ctx
 
 
@@ -60,6 +48,11 @@ class SponsoredEventsView(ListView):
     template_name = "events/sponsored.html"
     context_object_name = "events"
     queryset = SponsoredEvent.objects.filter(is_published=True)
+
+    def get_context_data(self, **kwargs):
+        ctx = super().get_context_data(**kwargs)
+        ctx["grant_cycle"] = GrantCycle.objects.order_by("-id").first()
+        return ctx
 
 
 class DonateView(TemplateView):

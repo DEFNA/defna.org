@@ -52,8 +52,9 @@ class DjangoConEdition(models.Model):
     end_date = models.DateField()
     location = models.CharField(max_length=200)
     website_url = models.URLField(blank=True)
+    logo_url = models.URLField(blank=True, verbose_name="Logo URL")
     status = models.CharField(max_length=20, choices=Status.choices, default=Status.UPCOMING)
-    highlight = models.TextField(blank=True, help_text="One-line summary shown in the timeline.")
+    highlight = models.TextField(blank=True, help_text="One-line summary shown in the edition card and timeline.")
 
     class Meta:
         ordering = ["-year"]
@@ -100,6 +101,17 @@ class BlogPost(models.Model):
 
     def get_absolute_url(self):
         return reverse("blog-detail", kwargs={"slug": self.slug})
+
+
+class Milestone(models.Model):
+    year = models.PositiveSmallIntegerField()
+    description = models.TextField()
+
+    class Meta:
+        ordering = ["year"]
+
+    def __str__(self):
+        return f"{self.year}: {self.description[:60]}"
 
 
 class GrantCycle(models.Model):

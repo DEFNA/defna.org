@@ -1,7 +1,7 @@
 from django.contrib import admin
 from markdownx.admin import MarkdownxModelAdmin
 
-from website.models import Announcement, BlogPost, BoardMember, DjangoConEdition, GrantCycle, SponsoredEvent
+from website.models import Announcement, BlogPost, BoardMember, DjangoConEdition, GrantCycle, Milestone, SponsoredEvent
 
 
 @admin.register(Announcement)
@@ -26,6 +26,7 @@ class DjangoConEditionAdmin(admin.ModelAdmin):
     list_display = ["year", "location", "start_date", "end_date", "status", "website_url"]
     list_filter = ["status"]
     ordering = ["-year"]
+    fields = ["year", "status", "location", "start_date", "end_date", "website_url", "logo_url", "highlight"]
 
 
 @admin.register(SponsoredEvent)
@@ -45,6 +46,12 @@ class BlogPostAdmin(MarkdownxModelAdmin):
     prepopulated_fields = {"slug": ("title",)}
     date_hierarchy = "published_at"
     search_fields = ["title", "excerpt", "body", "author"]
+
+
+@admin.register(Milestone)
+class MilestoneAdmin(admin.ModelAdmin):
+    list_display = ["year", "description"]
+    ordering = ["year"]
 
 
 @admin.register(GrantCycle)

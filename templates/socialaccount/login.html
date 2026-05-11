@@ -1,150 +1,150 @@
 {% load i18n static %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% translate "Sign In Via GitHub" %} — DEFNA</title>
-    <style>
-      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "Sign In Via GitHub" %} — DEFNA</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-      body {
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-        background: linear-gradient(135deg, #001e1d 0%, #004643 60%, #0a5c58 100%);
-        position: relative;
-        overflow: hidden;
-      }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #001e1d 0%, #004643 60%, #0a5c58 100%);
+      position: relative;
+      overflow: hidden;
+    }
 
-      .blob {
-        position: absolute;
-        border-radius: 50%;
-        filter: blur(80px);
-        pointer-events: none;
-      }
-      .blob-1 { width: 500px; height: 500px; background: rgba(171,209,198,0.18); top: -160px; right: -120px; }
-      .blob-2 { width: 350px; height: 350px; background: rgba(249,188,96,0.15); bottom: -80px; left: -80px; }
-      .blob-3 { width: 200px; height: 200px; background: rgba(0,70,67,0.4); top: 50%; left: 10%; }
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+    }
+    .blob-1 { width: 500px; height: 500px; background: rgba(171,209,198,0.18); top: -160px; right: -120px; }
+    .blob-2 { width: 350px; height: 350px; background: rgba(249,188,96,0.15); bottom: -80px; left: -80px; }
+    .blob-3 { width: 200px; height: 200px; background: rgba(0,70,67,0.4); top: 50%; left: 10%; }
 
-      .card {
-        position: relative;
-        z-index: 10;
-        width: 100%;
-        max-width: 420px;
-        margin: 1.5rem;
-        padding: 2.5rem 2.25rem;
-        background: rgba(255,255,255,0.07);
-        backdrop-filter: blur(24px);
-        -webkit-backdrop-filter: blur(24px);
-        border: 1px solid rgba(255,255,255,0.14);
-        border-radius: 20px;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.12);
-        text-align: center;
-      }
+    .card {
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      max-width: 420px;
+      margin: 1.5rem;
+      padding: 2.5rem 2.25rem;
+      background: rgba(255,255,255,0.07);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.12);
+      text-align: center;
+    }
 
-      .logo-wrap { margin-bottom: 2rem; }
-      .logo-wrap img { height: 42px; width: auto; filter: brightness(0) invert(1); }
+    .logo-wrap { margin-bottom: 2rem; }
+    .logo-wrap img { height: 42px; width: auto; filter: brightness(0) invert(1); }
 
     /* GitHub icon circle */
-      .provider-icon {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 56px;
-        height: 56px;
-        background: #24292e;
-        border-radius: 50%;
-        margin-bottom: 1.25rem;
-        border: 1px solid rgba(255,255,255,0.12);
-      }
-      .provider-icon svg { width: 28px; height: 28px; color: #fff; fill: currentColor; }
+    .provider-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      background: #24292e;
+      border-radius: 50%;
+      margin-bottom: 1.25rem;
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+    .provider-icon svg { width: 28px; height: 28px; color: #fff; fill: currentColor; }
 
-      .card-title {
-        color: #e8e4e6;
-        font-size: 1.35rem;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-        margin-bottom: 0.5rem;
-      }
-      .card-body {
-        color: #abd1c6;
-        font-size: 0.9rem;
-        line-height: 1.6;
-        margin-bottom: 2rem;
-      }
+    .card-title {
+      color: #e8e4e6;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+    }
+    .card-body {
+      color: #abd1c6;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
 
-      .btn-continue {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.6rem;
-        width: 100%;
-        padding: 0.85rem 1.5rem;
-        background: #f9bc60;
-        color: #001e1d;
-        font-size: 0.95rem;
-        font-weight: 700;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: background 0.15s, box-shadow 0.15s;
-        box-shadow: 0 4px 14px rgba(249,188,96,0.3);
-        text-decoration: none;
-      }
-      .btn-continue:hover {
-        background: #e8a840;
-        box-shadow: 0 6px 20px rgba(249,188,96,0.4);
-      }
+    .btn-continue {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      width: 100%;
+      padding: 0.85rem 1.5rem;
+      background: #f9bc60;
+      color: #001e1d;
+      font-size: 0.95rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.15s, box-shadow 0.15s;
+      box-shadow: 0 4px 14px rgba(249,188,96,0.3);
+      text-decoration: none;
+    }
+    .btn-continue:hover {
+      background: #e8a840;
+      box-shadow: 0 6px 20px rgba(249,188,96,0.4);
+    }
 
-      .back-link {
-        display: inline-block;
-        margin-top: 1.25rem;
-        font-size: 0.82rem;
-        color: rgba(171,209,198,0.6);
-        text-decoration: none;
-        transition: color 0.15s;
-      }
-      .back-link:hover { color: #abd1c6; }
-      .back-link::before { content: "← "; }
-    </style>
-  </head>
-  <body>
+    .back-link {
+      display: inline-block;
+      margin-top: 1.25rem;
+      font-size: 0.82rem;
+      color: rgba(171,209,198,0.6);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .back-link:hover { color: #abd1c6; }
+    .back-link::before { content: "← "; }
+  </style>
+</head>
+<body>
 
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
 
-    <div class="card">
+<div class="card">
 
-      <div class="logo-wrap">
-        <img src="{% static 'images/DEFNA-Logotype.png' %}" alt="DEFNA">
-      </div>
+  <div class="logo-wrap">
+    <img src="{% static 'images/DEFNA-Logotype.png' %}" alt="DEFNA">
+  </div>
 
-      <div class="provider-icon">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-        </svg>
-      </div>
+  <div class="provider-icon">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+    </svg>
+  </div>
 
-      {% if process == "connect" %}
-        <p class="card-title">{% blocktranslate with provider=provider.name %}Connect {{ provider }}{% endblocktranslate %}</p>
-        <p class="card-body">{% blocktranslate with provider=provider.name %}You are about to connect a new third-party account from {{ provider }}.{% endblocktranslate %}</p>
-      {% else %}
-        <p class="card-title">{% blocktranslate with provider=provider.name %}Sign In Via {{ provider }}{% endblocktranslate %}</p>
-        <p class="card-body">{% blocktranslate with provider=provider.name %}You are about to sign in using a third-party account from {{ provider }}.{% endblocktranslate %}</p>
-      {% endif %}
+  {% if process == "connect" %}
+    <p class="card-title">{% blocktrans with provider.name as provider %}Connect {{ provider }}{% endblocktrans %}</p>
+    <p class="card-body">{% blocktrans with provider.name as provider %}You are about to connect a new third-party account from {{ provider }}.{% endblocktrans %}</p>
+  {% else %}
+    <p class="card-title">{% blocktrans with provider.name as provider %}Sign In Via {{ provider }}{% endblocktrans %}</p>
+    <p class="card-body">{% blocktrans with provider.name as provider %}You are about to sign in using a third-party account from {{ provider }}.{% endblocktrans %}</p>
+  {% endif %}
 
-      <form method="post">
-        {% csrf_token %}
-        <button type="submit" class="btn-continue">{% translate "Continue" %}</button>
-      </form>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn-continue">{% trans "Continue" %}</button>
+  </form>
 
-      <a href="{% url 'admin:index' %}" class="back-link">{% translate "Back to login" %}</a>
+  <a href="{% url 'admin:index' %}" class="back-link">{% trans "Back to login" %}</a>
 
-    </div>
+</div>
 
-  </body>
+</body>
 </html>

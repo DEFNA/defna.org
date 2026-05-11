@@ -1,266 +1,266 @@
-{% load i18n socialaccount static %}
+{% load i18n static socialaccount %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% translate "Admin Login" %} — DEFNA</title>
-    <style>
-      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% translate "Admin Login" %} — DEFNA</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-      body {
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-        background: linear-gradient(135deg, #001e1d 0%, #004643 60%, #0a5c58 100%);
-        position: relative;
-        overflow: hidden;
-      }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #001e1d 0%, #004643 60%, #0a5c58 100%);
+      position: relative;
+      overflow: hidden;
+    }
 
     /* decorative blobs */
-      .blob {
-        position: absolute;
-        border-radius: 50%;
-        filter: blur(80px);
-        pointer-events: none;
-      }
-      .blob-1 { width: 500px; height: 500px; background: rgba(171,209,198,0.18); top: -160px; right: -120px; }
-      .blob-2 { width: 350px; height: 350px; background: rgba(249,188,96,0.15); bottom: -80px; left: -80px; }
-      .blob-3 { width: 200px; height: 200px; background: rgba(0,70,67,0.4); top: 50%; left: 10%; }
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+    }
+    .blob-1 { width: 500px; height: 500px; background: rgba(171,209,198,0.18); top: -160px; right: -120px; }
+    .blob-2 { width: 350px; height: 350px; background: rgba(249,188,96,0.15); bottom: -80px; left: -80px; }
+    .blob-3 { width: 200px; height: 200px; background: rgba(0,70,67,0.4); top: 50%; left: 10%; }
 
     /* glass card */
-      .card {
-        position: relative;
-        z-index: 10;
-        width: 100%;
-        max-width: 420px;
-        margin: 1.5rem;
-        padding: 2.5rem 2.25rem;
-        background: rgba(255,255,255,0.07);
-        backdrop-filter: blur(24px);
-        -webkit-backdrop-filter: blur(24px);
-        border: 1px solid rgba(255,255,255,0.14);
-        border-radius: 20px;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.12);
-      }
+    .card {
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      max-width: 420px;
+      margin: 1.5rem;
+      padding: 2.5rem 2.25rem;
+      background: rgba(255,255,255,0.07);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.12);
+    }
 
-      .logo-wrap { text-align: center; margin-bottom: 2rem; }
-      .logo-wrap img { height: 42px; width: auto; filter: brightness(0) invert(1); }
+    .logo-wrap { text-align: center; margin-bottom: 2rem; }
+    .logo-wrap img { height: 42px; width: auto; filter: brightness(0) invert(1); }
 
-      .card-title {
-        text-align: center;
-        color: #e8e4e6;
-        font-size: 1.35rem;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-        margin-bottom: 0.35rem;
-      }
-      .card-subtitle {
-        text-align: center;
-        color: #abd1c6;
-        font-size: 0.875rem;
-        margin-bottom: 2rem;
-      }
+    .card-title {
+      text-align: center;
+      color: #e8e4e6;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.35rem;
+    }
+    .card-subtitle {
+      text-align: center;
+      color: #abd1c6;
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+    }
 
     /* error / notice banners */
-      .notice {
-        padding: 0.75rem 1rem;
-        border-radius: 10px;
-        font-size: 0.85rem;
-        margin-bottom: 1.25rem;
-        display: flex;
-        align-items: flex-start;
-        gap: 0.5rem;
-      }
-      .notice-error {
-        background: rgba(225,97,98,0.18);
-        border: 1px solid rgba(225,97,98,0.35);
-        color: #fca5a5;
-      }
-      .notice-warn {
-        background: rgba(249,188,96,0.12);
-        border: 1px solid rgba(249,188,96,0.25);
-        color: #f9bc60;
-      }
+    .notice {
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    .notice-error {
+      background: rgba(225,97,98,0.18);
+      border: 1px solid rgba(225,97,98,0.35);
+      color: #fca5a5;
+    }
+    .notice-warn {
+      background: rgba(249,188,96,0.12);
+      border: 1px solid rgba(249,188,96,0.25);
+      color: #f9bc60;
+    }
 
     /* GitHub button */
-      .btn-github {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.6rem;
-        width: 100%;
-        padding: 0.8rem 1.5rem;
-        background: #24292e;
-        color: #fff;
-        text-decoration: none;
-        font-size: 0.95rem;
-        font-weight: 600;
-        border-radius: 10px;
-        border: 1px solid rgba(255,255,255,0.12);
-        transition: background 0.15s, box-shadow 0.15s;
-        box-shadow: 0 4px 14px rgba(0,0,0,0.35);
-      }
-      .btn-github:hover {
-        background: #1a1f24;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.45);
-      }
-      .btn-github svg { flex-shrink: 0; width: 1.2em; height: 1.2em; }
+    .btn-github {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      width: 100%;
+      padding: 0.8rem 1.5rem;
+      background: #24292e;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      transition: background 0.15s, box-shadow 0.15s;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+    }
+    .btn-github:hover {
+      background: #1a1f24;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+    }
+    .btn-github svg { flex-shrink: 0; width: 1.2em; height: 1.2em; }
 
     /* divider */
-      .divider {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        margin: 1.5rem 0;
-        color: rgba(171,209,198,0.5);
-        font-size: 0.8rem;
-      }
-      .divider::before, .divider::after {
-        content: '';
-        flex: 1;
-        height: 1px;
-        background: rgba(171,209,198,0.2);
-      }
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 1.5rem 0;
+      color: rgba(171,209,198,0.5);
+      font-size: 0.8rem;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(171,209,198,0.2);
+    }
 
     /* password form toggle */
-      details summary {
-        text-align: center;
-        color: #abd1c6;
-        font-size: 0.8rem;
-        cursor: pointer;
-        user-select: none;
-        list-style: none;
-        opacity: 0.7;
-        transition: opacity 0.15s;
-      }
-      details summary:hover { opacity: 1; }
-      details summary::-webkit-details-marker { display: none; }
-      details[open] summary { margin-bottom: 1.25rem; }
+    details summary {
+      text-align: center;
+      color: #abd1c6;
+      font-size: 0.8rem;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+    }
+    details summary:hover { opacity: 1; }
+    details summary::-webkit-details-marker { display: none; }
+    details[open] summary { margin-bottom: 1.25rem; }
 
-      .field { margin-bottom: 1rem; }
-      .field label {
-        display: block;
-        font-size: 0.8rem;
-        font-weight: 500;
-        color: #abd1c6;
-        margin-bottom: 0.35rem;
-      }
-      .field input {
-        width: 100%;
-        padding: 0.65rem 0.85rem;
-        background: rgba(255,255,255,0.08);
-        border: 1px solid rgba(255,255,255,0.15);
-        border-radius: 8px;
-        color: #e8e4e6;
-        font-size: 0.9rem;
-        outline: none;
-        transition: border-color 0.15s, background 0.15s;
-      }
-      .field input:focus {
-        border-color: rgba(171,209,198,0.5);
-        background: rgba(255,255,255,0.12);
-      }
-      .field input::placeholder { color: rgba(171,209,198,0.4); }
-      .field .errorlist { list-style: none; color: #fca5a5; font-size: 0.8rem; margin-top: 0.25rem; }
+    .field { margin-bottom: 1rem; }
+    .field label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #abd1c6;
+      margin-bottom: 0.35rem;
+    }
+    .field input {
+      width: 100%;
+      padding: 0.65rem 0.85rem;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 8px;
+      color: #e8e4e6;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .field input:focus {
+      border-color: rgba(171,209,198,0.5);
+      background: rgba(255,255,255,0.12);
+    }
+    .field input::placeholder { color: rgba(171,209,198,0.4); }
+    .field .errorlist { list-style: none; color: #fca5a5; font-size: 0.8rem; margin-top: 0.25rem; }
 
-      .btn-submit {
-        width: 100%;
-        padding: 0.75rem;
-        background: #004643;
-        color: #e8e4e6;
-        font-size: 0.9rem;
-        font-weight: 600;
-        border: 1px solid rgba(171,209,198,0.25);
-        border-radius: 10px;
-        cursor: pointer;
-        transition: background 0.15s;
-      }
-      .btn-submit:hover { background: #005a56; }
+    .btn-submit {
+      width: 100%;
+      padding: 0.75rem;
+      background: #004643;
+      color: #e8e4e6;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: 1px solid rgba(171,209,198,0.25);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-submit:hover { background: #005a56; }
 
-      .footer-link {
-        display: block;
-        text-align: center;
-        margin-top: 0.75rem;
-        font-size: 0.78rem;
-        color: rgba(171,209,198,0.5);
-        text-decoration: none;
-        transition: color 0.15s;
-      }
-      .footer-link:hover { color: #abd1c6; }
-    </style>
-  </head>
-  <body>
+    .footer-link {
+      display: block;
+      text-align: center;
+      margin-top: 0.75rem;
+      font-size: 0.78rem;
+      color: rgba(171,209,198,0.5);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-link:hover { color: #abd1c6; }
+  </style>
+</head>
+<body>
 
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
 
-    <div class="card">
+<div class="card">
 
-      <div class="logo-wrap">
-        <img src="{% static 'images/DEFNA-Logotype.png' %}" alt="DEFNA">
+  <div class="logo-wrap">
+    <img src="{% static 'images/DEFNA-Logotype.png' %}" alt="DEFNA">
+  </div>
+
+  <p class="card-title">{% translate "Staff Login" %}</p>
+  <p class="card-subtitle">{% translate "Sign in to manage DEFNA" %}</p>
+
+  {% if request.GET.error == "unauthorized" %}
+  <div class="notice notice-error">
+    <span>&#9888;</span>
+    <span>{% translate "Access restricted to authorised staff members." %}</span>
+  </div>
+  {% endif %}
+
+  {% if form.non_field_errors %}
+  <div class="notice notice-error">
+    <span>&#9888;</span>
+    <span>{% for e in form.non_field_errors %}{{ e }}{% endfor %}</span>
+  </div>
+  {% endif %}
+
+  {% if user.is_authenticated %}
+  <div class="notice notice-warn">
+    <span>&#9432;</span>
+    <span>{% blocktranslate trimmed with username=username %}You are signed in as {{ username }} but lack admin access.{% endblocktranslate %}</span>
+  </div>
+  {% endif %}
+
+  <a href="{% provider_login_url "github" next=next %}" class="btn-github">
+    <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+    </svg>
+    {% translate "Sign in with GitHub" %}
+  </a>
+
+  <div class="divider">{% translate "or use password" %}</div>
+
+  <details>
+    <summary>{% translate "Sign in with username &amp; password &#9660;" %}</summary>
+    <form action="{{ app_path }}" method="post" autocomplete="on">
+      {% csrf_token %}
+      <input type="hidden" name="next" value="{{ next }}">
+      <div class="field">
+        {{ form.username.label_tag }}
+        {{ form.username }}
+        {{ form.username.errors }}
       </div>
+      <div class="field">
+        {{ form.password.label_tag }}
+        {{ form.password }}
+        {{ form.password.errors }}
+      </div>
+      <button type="submit" class="btn-submit">{% translate "Log in" %}</button>
+    </form>
+    {% url 'admin_password_reset' as password_reset_url %}
+    {% if password_reset_url %}
+    <a href="{{ password_reset_url }}" class="footer-link">{% translate "Forgot your credentials?" %}</a>
+    {% endif %}
+  </details>
 
-      <p class="card-title">{% translate "Staff Login" %}</p>
-      <p class="card-subtitle">{% translate "Sign in to manage DEFNA" %}</p>
+</div>
 
-      {% if request.GET.error == "unauthorized" %}
-        <div class="notice notice-error">
-          <span>&#9888;</span>
-          <span>{% translate "Access restricted to authorised staff members." %}</span>
-        </div>
-      {% endif %}
-
-      {% if form.non_field_errors %}
-        <div class="notice notice-error">
-          <span>&#9888;</span>
-          <span>{% for e in form.non_field_errors %}{{ e }}{% endfor %}</span>
-        </div>
-      {% endif %}
-
-      {% if user.is_authenticated %}
-        <div class="notice notice-warn">
-          <span>&#9432;</span>
-          <span>{% blocktranslate trimmed with username=username %}You are signed in as {{ username }} but lack admin access.{% endblocktranslate %}</span>
-        </div>
-      {% endif %}
-
-      <a href="{% provider_login_url "github" next=next %}" class="btn-github">
-        <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-          <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-        </svg>
-        {% translate "Sign in with GitHub" %}
-      </a>
-
-      <div class="divider">{% translate "or use password" %}</div>
-
-      <details>
-        <summary>{% translate "Sign in with username &amp; password &#9660;" %}</summary>
-        <form action="{{ app_path }}" method="post" autocomplete="on">
-          {% csrf_token %}
-          <input type="hidden" name="next" value="{{ next }}">
-          <div class="field">
-            {{ form.username.label_tag }}
-            {{ form.username }}
-            {{ form.username.errors }}
-          </div>
-          <div class="field">
-            {{ form.password.label_tag }}
-            {{ form.password }}
-            {{ form.password.errors }}
-          </div>
-          <button type="submit" class="btn-submit">{% translate "Log in" %}</button>
-        </form>
-        {% url 'admin_password_reset' as password_reset_url %}
-        {% if password_reset_url %}
-          <a href="{{ password_reset_url }}" class="footer-link">{% translate "Forgot your credentials?" %}</a>
-        {% endif %}
-      </details>
-
-    </div>
-
-  </body>
+</body>
 </html>

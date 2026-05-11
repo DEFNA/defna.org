@@ -47,6 +47,10 @@ INSTALLED_APPS = [
 # Third-party apps
 
 INSTALLED_APPS += [
+    "allauth",
+    "allauth.account",
+    "allauth.socialaccount",
+    "allauth.socialaccount.providers.github",
     "django_browser_reload",
     "django_prodserver",
     "django_q",
@@ -70,6 +74,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django_browser_reload.middleware.BrowserReloadMiddleware",
+    "allauth.account.middleware.AccountMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -198,4 +203,28 @@ PRODUCTION_PROCESSES = {
         "BACKEND": "django_prodserver.backends.django_q2.DjangoQ2Worker",
         "ARGS": {},
     },
+}
+
+# Authentication backends
+
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+]
+
+# django-allauth settings
+
+LOGIN_REDIRECT_URL = "/admin/"
+ACCOUNT_EMAIL_VERIFICATION = "none"
+ACCOUNT_USERNAME_REQUIRED = False
+SOCIALACCOUNT_AUTO_SIGNUP = False
+SOCIALACCOUNT_ADAPTER = "website.adapters.StaffOnlySocialAccountAdapter"
+SOCIALACCOUNT_PROVIDERS = {
+    "github": {
+        "SCOPE": ["user:email"],
+        "APP": {
+            "client_id": env.str("GITHUB_CLIENT_ID", default=""),
+            "secret": env.str("GITHUB_CLIENT_SECRET", default=""),
+        },
+    }
 }

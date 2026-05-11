@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "blessed",
+    "django-allauth>=65.16.1",
     "django-browser-reload",
     "django-click",
     "django-health-check",
@@ -17,6 +18,7 @@ dependencies = [
     "environs[django]",
     "pillow",
     "psycopg[binary]",
+    "requests>=2.33.1",
     "whitenoise",
 ]
 

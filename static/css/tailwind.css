@@ -380,7 +380,6 @@
     --color-surface-alt: #abd1c6;
     --color-text: #001e1d;
     --color-text-muted: #0f3433;
-    --color-accent-red: #e16162;
   }
 }
 @layer base {
@@ -617,9 +616,6 @@
   .bottom-4 {
     bottom: calc(var(--spacing) * 4);
   }
-  .-left-1 {
-    left: calc(var(--spacing) * -1);
-  }
   .-left-1\.5 {
     left: calc(var(--spacing) * -1.5);
   }
@@ -628,9 +624,6 @@
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
   }
   .left-1\/2 {
     left: calc(1/2 * 100%);
@@ -1348,9 +1341,6 @@
       margin-bottom: 0;
     }
   }
-  .mt-0 {
-    margin-top: calc(var(--spacing) * 0);
-  }
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
   }
@@ -1515,10 +1505,6 @@
   }
   .aspect-video {
     aspect-ratio: var(--aspect-video);
-  }
-  .size-3 {
-    width: calc(var(--spacing) * 3);
-    height: calc(var(--spacing) * 3);
   }
   .size-3\.5 {
     width: calc(var(--spacing) * 3.5);
@@ -1822,10 +1808,6 @@
   .translate-full {
     --tw-translate-x: 100%;
     --tw-translate-y: 100%;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-x-1\/2 {
@@ -2552,9 +2534,6 @@
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
-  .border-white {
-    border-color: var(--color-white);
-  }
   .border-white\/20 {
     border-color: color-mix(in srgb, #fff 20%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -2575,9 +2554,6 @@
   }
   .border-yellow-200 {
     border-color: var(--color-yellow-200);
-  }
-  .bg-\[\#00D64F\] {
-    background-color: #00D64F;
   }
   .bg-\[\#1a1a1a\] {
     background-color: #1a1a1a;
@@ -2681,10 +2657,6 @@
   }
   .via-none {
     --tw-gradient-via-stops: initial;
-  }
-  .from-black {
-    --tw-gradient-from: var(--color-black);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-black\/60 {
     --tw-gradient-from: color-mix(in srgb, #000 60%, transparent);
@@ -3019,9 +2991,6 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
   .p-2\.5 {
     padding: calc(var(--spacing) * 2.5);
   }
@@ -3063,9 +3032,6 @@
   }
   .px-\[0\.3rem\] {
     padding-inline: 0.3rem;
-  }
-  .py-0 {
-    padding-block: calc(var(--spacing) * 0);
   }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
@@ -3372,9 +3338,6 @@
   }
   .text-blue-700 {
     color: var(--color-blue-700);
-  }
-  .text-defna-gold {
-    color: var(--color-defna-gold);
   }
   .text-defna-gold-dark {
     color: var(--color-defna-gold-dark);
@@ -4070,13 +4033,6 @@
       }
     }
   }
-  .hover\:bg-\[\#00b843\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #00b843;
-      }
-    }
-  }
   .hover\:bg-\[\#005ea6\] {
     &:hover {
       @media (hover: hover) {
@@ -4397,11 +4353,6 @@
   .sm\:min-h-\[340px\] {
     @media (width >= 40rem) {
       min-height: 340px;
-    }
-  }
-  .sm\:w-36 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 36);
     }
   }
   .sm\:w-48 {

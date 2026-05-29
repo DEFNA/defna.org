@@ -1,6 +1,6 @@
 [project]
 name = "dev_defna_org"
-version = "2026.5.6"
+version = "2026.5.7"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -33,7 +33,7 @@ dev = [
 [tool.bumpver]
 commit = true
 commit_message = ":bookmark: bump version {old_version} -> {new_version}"
-current_version = "2026.5.6"
+current_version = "2026.5.7"
 push = false  # disabled for GitHub Actions
 tag = true
 version_pattern = "YYYY.MM.INC1"

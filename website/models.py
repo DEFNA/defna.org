@@ -84,7 +84,7 @@ class SponsoredEvent(models.Model):
 
 class BlogPost(models.Model):
     title = models.CharField(max_length=200)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(max_length=200, unique=True)
     excerpt = models.TextField(help_text="Short summary shown in the post listing.")
     body = MarkdownxField()
     author = models.CharField(max_length=100, blank=True)
